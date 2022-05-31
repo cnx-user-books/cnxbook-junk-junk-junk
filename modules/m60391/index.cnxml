@@ -1,0 +1,23 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>junk pdf hosting test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60391</md:content-id>
+  <md:title>junk pdf hosting test</md:title>
+  <md:abstract>junk this is a test of hosting pdf files on OpenStax</md:abstract>
+  <md:uuid>25f19c61-2ac4-4723-a80c-bb10126e021f</md:uuid>
+</metadata>
+
+<content>
+<para id="p1000">
+This page is designed specifically to host a PDF file.
+</para>
+<para id="p1001">
+<link id="a1000" url="MyFile.pdf">
+Click here to view the PDF file
+</link>
+</para>
+<para id="p1002">
+-end- 
+</para>
+</content>
+</document>

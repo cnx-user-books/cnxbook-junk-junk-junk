@@ -1,0 +1,1262 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>junk junk junk PDF Image Test</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m59706</md:content-id>
+  <md:title>junk junk junk PDF Image Test</md:title>
+  <md:abstract>junk junk The purpose of this junk module is to experiment with the pdf display of images.</md:abstract>
+  <md:uuid>92fdae38-04b1-48af-aa9f-c2e9d80e64eb</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+junk junk junk junk
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1001">
+<link id="a1001" target-id="Images_and_listings">
+
+Images and listings
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="Preview">
+
+Preview
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Discussion_and_sample_code">
+
+Discussion
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Two_versions_of_Hello_World">
+
+Two versions of Hello World
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="A_text_version_of_Hello_World">
+
+A text version of Hello World
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="A_graphic_version_of_Hello_World">
+
+A graphic version of Hello World
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1009">
+<link id="a1009" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+	
+
+<para id="p1000">
+The purpose of this junk module is to experiment with the pdf display of 
+	images.
+
+</para>
+
+
+
+
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Images_and_listings" effect="bold">
+
+Images and listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1003" list-type="bulleted">
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Result of merging two images. 
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. Input image #1. 
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. Input image #2. 
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1013" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Putting the library on the classpath. 
+
+</item>
+
+
+	
+
+<item id="li1014">
+<link id="a1014" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. Batch file for text version of Hello World. 
+
+</item>
+
+
+	
+
+<item id="li1015">
+<link id="a1015" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Hello World in graphics. 
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. Batch file for graphic version of Hello World. . 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. A text version of Hello World. 
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. A graphic version of Hello World. 
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1001">
+Among other things, the Guzdial-Ericson multimedia class library makes it practical to 
+	write object-oriented programs for the manipulation of images in an 
+	interesting and educational way. For example, the image in
+	
+
+<link id="a1019" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ was produced by manipulating and merging 
+	the images shown in 
+
+<link id="a1020" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ and 
+
+<link id="a1021" target-id="Image_3">
+
+
+	Image 3
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1002">
+<emphasis id="Image_1" effect="bold">
+
+
+<emphasis id="strong1000" effect="bold">
+Image 1
+
+</emphasis>
+</emphasis>
+
+
+<emphasis id="strong1001" effect="bold">
+ Result of merging two images.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1003">
+<media id="media1000" alt="This image shows the result of merging an image of a penguin  with an image of a rabbot. The picture morphs from the penguin image on the left to the rabbit image on the right." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/Java3000C.jpg" width="342" height="385"/>
+</media>
+
+
+
+
+</para>
+
+
+
+
+<para id="p1004">
+The image shown above simply inserts an img tag in a paragraph. The caption 
+is created as a paragraph immediately ahead of the paragraph containing the 
+image. A standard hyperlink is used as the anchor for the image.
+
+</para>
+
+
+
+
+<para id="p1005">
+zz
+
+</para>
+
+
+
+
+<para id="p1006">
+The image shown below inserts the image in a table and uses the table heading 
+for the caption. As of 01/24/16, this approach produces three extraneous copies 
+of the image in the cnx pdf download file.
+
+</para>
+
+
+
+	
+
+
+
+
+<para id="p1007">
+One of the 
+input images is shown in 
+
+<link id="a1022" target-id="Image_2">
+
+Image 2
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1000" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+
+
+
+<emphasis id="Image_2" effect="bold">
+
+Image 2
+
+</emphasis>
+
+. Input image #1.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1000">
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<media id="media1001" alt="This is the rabbit image that was merged with  the penguin image to produce the resulting image shown in Image 1." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/Java3000A.jpg" width="348" height="317"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1008">
+The other input image is shown in 
+
+<link id="a1023" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</para>
+
+
+
+	
+
+
+<table id="table1001" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1001">
+<row id="tr1002">
+<entry id="th1001">
+
+
+
+<emphasis id="Image_3" effect="bold">
+
+Image 3
+
+</emphasis>
+
+. Input image #2.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1001">
+<row id="tr1003">
+<entry id="td1001">
+
+
+
+<media id="media1002" alt="This is the penguin image that was merged with  the rabbit image to produce the resulting image shown in Image 1." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/Java3000B.jpg" width="348" height="317"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+	
+
+	
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+
+
+<para id="p1009">
+When you examine tzz
+
+</para>
+
+
+
+
+<para id="p1010">
+<emphasis id="strong1002" effect="bold">
+Put the library on the classpath
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1011">
+You will need to put the path to the 
+
+<emphasis id="strong1003" effect="bold">
+bookClasses
+
+</emphasis>
+ folder on 
+your classpath in order to incorporate classes from the library into your 
+programs.
+
+</para>
+
+
+	
+
+<table id="table1002" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1002">
+
+			
+
+<row id="tr1004">
+
+				
+
+<entry id="th1002">
+<emphasis id="Image_4" effect="bold">
+
+Image 4
+
+</emphasis>
+
+. Putting the library on the 
+				classpath.
+
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1002">
+
+			
+
+<row id="tr1005">
+
+				
+
+<entry id="td1002">
+
+							
+
+<code id="pre1000" display="block">del *.class
+javac -cp .;M:\bookClasses *.java
+java -cp .;M:\bookClasses Prob01</code>
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+	
+
+<para id="p1012">
+For example, 
+
+<link id="a1024" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows three commands that 
+	you can execute at a Windows command prompt to
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Two_versions_of_Hello_World" effect="bold">
+
+Two versions of Hello 
+World
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+It is often useful to have the code for a simple program to test your system. 
+This section presents two versions of the classical 
+
+<emphasis id="em1000" effect="italics">
+Hello World
+
+</emphasis>
+ program. The 
+first version is a simple text version that doesn't use Ericson's library. 
+This version can be used to confirm that the Java Development Kit (JDK) is 
+properly installed on your computer.
+
+</para>
+
+
+
+
+<para id="p1014">
+The 
+second version is a graphic version that does require Ericson's library. 
+This version can be used to confirm proper installation and use of the library.
+
+</para>
+
+
+
+
+<section id="h21002">
+<title>
+<emphasis id="A_text_version_of_Hello_World" effect="bold">
+
+A text version of Hello World
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+The simple program shown in 
+
+<link id="a1025" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ causes the words 
+
+
+<emphasis id="strong1004" effect="bold">
+<emphasis id="em1001" effect="italics">
+Text Hello World
+
+</emphasis>
+</emphasis>
+ to 
+be displayed on the standard output device when the program is compiled and 
+executed. 
+
+</para>
+
+
+	
+
+<table id="table1003" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1003">
+
+			
+
+<row id="tr1006">
+
+				
+
+<entry id="th1003">
+<emphasis id="Listing_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. A text version of Hello 
+				World.
+
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1003">
+
+			
+
+<row id="tr1007">
+
+				
+
+<entry id="td1003">
+
+
+
+<code id="pre1001" display="block">
+class TextHelloWorld{
+  public static void main(String[] args){
+    System.out.println("Text Hello World");
+  }//end main
+}//end class
+</code>
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+	
+
+<para id="p1016">
+The program shown in 
+
+<link id="a1026" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ causes the image shown in 
+
+
+<link id="a1027" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ to be 
+displayed when the program is compiled and 
+executed.
+
+</para>
+
+
+
+	
+
+
+<table id="table1004" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Image_6" effect="bold">
+
+Image 6
+
+</emphasis>
+
+. Hello World in graphics.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+
+
+<media id="media1003" alt="A graphic image with the text Hello World" display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/graphichelloworld.jpg" width="209" height="139"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+<para id="p1017">
+As mentioned above, zz
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+scellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1018">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1005" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1005" list-type="bulleted">
+
+					
+
+<item id="li1019">
+Module name: PdfImageTest01
+
+</item>
+
+
+					
+
+<item id="li1020">
+File: PdfImageTest01.htm
+
+
+</item>
+
+
+					
+
+<item id="li1021">
+Published: 01/24/16
+
+</item>
+
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1001" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1006" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1019">
+<emphasis id="strong1007" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1020">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1021">
+In the past, unknown individuals have misappropriated copies 
+				of my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				receive no compensation for those sales and don't know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a bootleg copy of a module that is freely 
+				available on cnx.org.
+
+</para>
+
+
+				
+
+<para id="p1022">
+<emphasis id="strong1008" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+	
+
+<para id="p1023">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

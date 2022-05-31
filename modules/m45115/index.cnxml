@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Exercise example</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45115</md:content-id>
+  <md:title>Exercise example</md:title>
+  <md:abstract>The only purpose of this module is to allow experimentation with an example of an Exercise tag. In particular, I need to know how the Exercise is treated in the downloadable PDF and HTML versions.</md:abstract>
+  <md:uuid>a727a7bd-5667-48cf-86a5-80bd563146ac</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+Exercise Example 
+
+</para>
+
+
+
+
+<para id="p1001">
+Put cnxml code for an exercise here after the cnxml file is created.
+
+</para>
+
+
+<exercise id="texas-exercise">
+  <problem id="texas-problem">
+    <para id="texas-problem-para">
+      What is the capital of Texas?
+    </para>
+  </problem>
+  <solution id="texas-solution">
+    <para id="texas-solution-para">
+      Austin is the capital of Texas.
+    </para>
+  </solution>
+</exercise>
+
+
+
+<para id="p1002">
+-end- 
+
+</para>
+
+
+
+
+
+
+</content>
+
+
+
+
+</document>

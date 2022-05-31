@@ -1,0 +1,190 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>PdfTest01</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m49734</md:content-id>
+  <md:title>PdfTest01</md:title>
+  <md:abstract>The purpose of this module is to test for the use of "local pdf" files in the new openstax format. NOTE: THE PDF FILES USED IN THIS TEST ARE IN ROUGH DRAFT FORM AND SHOULD NOT BE INTERPRETED TO BE FOR ANY PURPOSE OTHER THAN TO CONFIRM THAT THEY CAN BE OPENED IN A FIREFOX BROWSER.</md:abstract>
+  <md:uuid>390a5b2a-bfde-4fad-ad1c-210c0a48f356</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1001">
+<link id="a1001" target-id="Tutorial_Links">
+
+Tutorial links
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+	
+
+<para id="p1000">
+The purpose of this module is to test for the use of "local pdf" files in 
+	the new openstax format. 
+
+</para>
+
+
+
+
+<para id="p1001">
+NOTE: THE PDF FILES USED IN THIS TEST ARE IN ROUGH DRAFT FORM AND SHOULD NOT 
+BE INTERPRETED TO BE FOR ANY PURPOSE OTHER THAN TO CONFIRM THAT THEY CAN BE 
+OPENED IN A FIREFOX BROWSER. 
+
+</para>
+
+
+
+
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Tutorial_Links" effect="bold">
+
+Tutorial Links
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1001" list-type="bulleted">
+
+	
+
+<item id="li1002">
+<link id="a1002" url="00-NetBeansPrimer-v8.pdf">
+
+00-NetBeansPrimer-v8.pdf
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" url="01-FirstServlet.pdf">
+
+01-FirstServlet.pdf
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" url="hello.zip">
+
+hello.zip
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1002">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

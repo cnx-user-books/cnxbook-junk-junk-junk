@@ -1,0 +1,4153 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Itse1359-1430-Instance Variables</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m51447</md:content-id>
+  <md:title>Itse1359-1430-Instance Variables</md:title>
+  <md:abstract>In this module, you will learn some of the details regarding instance variables. You will also learn that although other OO languages such as Java and C++ use terminology that is common with Python terminology, such as class, object, class variable, and instance variable, that terminology has significantly different meanings in Python.</md:abstract>
+  <md:uuid>ffa83f01-d63f-4539-9e3e-a4a01292c2ae</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="What_you_have_learned">
+
+What you have learned
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="What_you_will_learn">
+
+What you will learn
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Images">
+
+Figures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Discussion_and_sample_code">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Empty_objects">
+
+Empty objects
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="Instantiate_two_objects_of_the_empty_class">
+
+Instantiate two objects of the empty class
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Would_be_worthless_in_Java_or_C">
+
+Would be almost worthless in Java or C++
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Add_an_instance_variable_to_one_object">
+
+Add an instance variable to one object
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+
+			
+
+<link id="a1012" target-id="Try_to_display_the_same_instance_variable_in_the_other_object">
+
+Try to display the same instance variable in the other object
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+
+			
+
+<link id="a1013" target-id="Visualize_the_code_in_Listing_9">
+
+Visualize the code in 
+			Listing 9
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Object_can_modify_itself_at_runtime">
+
+Object can modify itself at runtime
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="The_definition_of_a_class_named_TestClass">
+
+The definition of a class named TestClass
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+
+			
+
+<link id="a1016" target-id="Add_an_instance_variable_to_one_object_and_display_it">
+
+Add an instance variable to one object and display it
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+
+			
+
+<link id="a1017" target-id="Visualize_the_code_in_Listing_10">
+
+Visualize the code in 
+			Listing 10
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="The_method_named___init__">
+
+The method named __init__
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="A_class_with_an___init___method">
+
+A class with an __init__ method
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="Instantiate_and_display_two_objects">
+
+Instantiate and display two objects
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="The_incoming_parameter_to_the___init___method">
+
+The incoming parameter to the __init__ method
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="Display_first_instance_variable_from_both_objects">
+
+Display first instance variable from both objects
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1023">
+<link id="a1023" target-id="The_remainder_of_the_program">
+
+The remainder of the program
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1024">
+<link id="a1024" target-id="Visualize_the_code_in_Listing_11">
+
+Visualize the code 
+			in Listing 11
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Run_the_program">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Complete_program_listings">
+
+Complete program listings
+
+</link>
+
+
+</item>
+
+
+
+	
+
+<item id="li1027">
+<link id="a1027" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+
+</list>
+
+
+	
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+
+<para id="p1000">
+This module is one in a collection of modules on Python designed for 
+teaching 
+
+<emphasis id="em1000" effect="italics">
+ITSE 1359 Introduction to Scripting Languages: Python
+
+</emphasis>
+ at Austin Community 
+College in Austin, TX.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="What_you_have_learned" effect="bold">
+
+What you have learned
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1001">
+An earlier module provided an overview of classes and objects in Python. 
+Similarly, an earlier module explained the use of the 
+
+<emphasis id="strong1000" effect="bold">
+self
+
+</emphasis>
+ word 
+in Python class definitions.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="What_you_will_learn" effect="bold">
+
+What you will learn
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+I promised in an earlier module that I would revisit and explain the 
+difference between 
+
+<emphasis id="em1001" effect="italics">
+class variables
+
+</emphasis>
+ and 
+
+<emphasis id="em1002" effect="italics">
+instance variables
+
+</emphasis>
+ in classes and 
+objects. That is the purpose of this and some future modules. 
+
+</para>
+
+
+
+
+<para id="p1003">
+In this module, you will learn some of the details regarding instance 
+variables. You will also learn that although other OO languages such as Java and 
+C++ use terminology that is common with Python terminology, such as 
+
+<emphasis id="em1003" effect="italics">
+class
+
+</emphasis>
+, 
+
+
+<emphasis id="em1004" effect="italics">
+object
+
+</emphasis>
+, 
+
+<emphasis id="em1005" effect="italics">
+class variable
+
+</emphasis>
+, and 
+
+<emphasis id="em1006" effect="italics">
+instance variable
+
+</emphasis>
+, those 
+terms have 
+significantly different meanings in Python than they do in many other OO 
+languages.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1004">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the Figures 
+	and the Listings while you are reading about them.
+
+</para>
+
+
+
+
+<para id="p1005">
+<emphasis id="em1007" effect="italics">
+(Note to blind and visually impaired students: most of the Figures and all of the 
+Listings in 
+this module are presented in plain text format and should be accessible using an 
+audio screen reader or a braille display. Note however that the required 
+indentation may not be properly represented by an audio screen reader.)
+
+</emphasis>
+</para>
+
+
+	
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Figures
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1007" list-type="bulleted">
+
+
+
+<item id="li1028">
+<link id="a1028" target-id="Image_2">
+
+Figure 1
+
+</link>
+
+. Print the object's references.
+
+</item>
+
+
+
+
+<item id="li1029">
+<link id="a1029" target-id="Image_4">
+
+Figure 2
+
+</link>
+
+. Output from the code in Listing 2.
+
+</item>
+
+
+
+
+<item id="li1030">
+<link id="a1030" target-id="Image_6">
+
+Figure 3
+
+</link>
+
+. Output from the code in Listing 3.
+
+</item>
+
+
+
+
+<item id="li1031">
+<link id="a1031" target-id="Image_12">
+
+Figure 4
+
+</link>
+
+. Output from the code in Listing 8.
+
+</item>
+
+
+
+
+<item id="li1032">
+<link id="a1032" target-id="Image_14">
+
+Figure 5
+
+</link>
+
+. Output from code in Listing 9.
+
+</item>
+
+
+
+
+<item id="li1033">
+<link id="a1033" target-id="Image_16">
+
+Figure 6
+
+</link>
+
+. Output from code in Listing 10.
+
+</item>
+
+
+
+
+<item id="li1034">
+<link id="a1034" target-id="Image_18">
+
+Figure 7
+
+</link>
+
+. Output from code in Listing 11.
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+
+
+<item id="li1035">
+<link id="a1035" target-id="Image_1">
+
+Listing 1
+
+</link>
+
+. Empty objects. 
+
+</item>
+
+
+
+
+<item id="li1036">
+<link id="a1036" target-id="Image_3">
+
+Listing 2
+
+</link>
+
+. Add an instance variable to one object.
+
+</item>
+
+
+
+
+<item id="li1037">
+<link id="a1037" target-id="Image_5">
+
+Listing 3
+
+</link>
+
+. Try to display the same instance variable in the other object.
+
+</item>
+
+
+
+
+<item id="li1038">
+<link id="a1038" target-id="Image_7">
+
+Listing 4
+
+</link>
+
+. Object can modify itself at runtime.
+
+</item>
+
+
+
+
+<item id="li1039">
+<link id="a1039" target-id="Image_8">
+
+Listing 5
+
+</link>
+
+. Add an instance variable to one object and display it.
+
+</item>
+
+
+
+
+<item id="li1040">
+<link id="a1040" target-id="Image_9">
+
+Listing 6
+
+</link>
+
+. A class with an __init__ method.
+
+</item>
+
+
+
+
+<item id="li1041">
+<link id="a1041" target-id="Image_10">
+
+Listing 7
+
+</link>
+
+. Instantiate and display two objects.
+
+</item>
+
+
+
+
+<item id="li1042">
+<link id="a1042" target-id="Image_11">
+
+Listing 8
+
+</link>
+
+. Display first instance variable from both objects.
+
+</item>
+
+
+
+
+<item id="li1043">
+<link id="a1043" target-id="Image_13">
+
+Listing 9
+
+</link>
+
+. Complete program listing. 
+
+</item>
+
+
+
+
+<item id="li1044">
+<link id="a1044" target-id="Image_15">
+
+Listing 10
+
+</link>
+
+. Complete program listing.
+
+</item>
+
+
+
+
+<item id="li1045">
+<link id="a1045" target-id="Image_17">
+
+Listing 11
+
+</link>
+
+. Complete program listing.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="General_background_information" effect="bold">
+
+General 
+	background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+In Java, C#, and C++, once you define and compile a class, that class, 
+
+<emphasis id="em1008" effect="italics">
+(which is 
+the blueprint for an object)
+
+</emphasis>
+, can only be modified by recompiling the class. In 
+other words, once compiled, a class is intended to be stable and in general 
+cannot be modified at runtime.
+
+</para>
+
+
+
+
+<para id="p1007">
+Also in Java and C++, once you instantiate an object from a class, you cannot 
+modify the structure of the object. You can modify the values of the data stored 
+in the object but the structure of the object is stable and cannot be modified 
+at runtime.
+
+</para>
+
+
+
+
+<para id="p1008">
+Along that line, the structure of an object in Java and C++ is explicitly 
+tied to the blueprint provided by the class from which it was instantiated. 
+There is a fixed relationship between the object and the class from which it was 
+instantiated.
+
+</para>
+
+
+
+
+<para id="p1009">
+None of that is true in Python. You can modify the structure of a Python 
+object at runtime after it is instantiated. By that I mean that you can add new 
+instance variables to an object such that the structure of the object is 
+different from the blueprint provided by the class from which it was 
+instantiated. Further, you can modify the blueprint provided by the class at 
+runtime after the class has been used to instantiate one or more objects.
+
+</para>
+
+
+
+
+<para id="p1010">
+I'm not suggesting that this is either good or bad. I'm simply stating that 
+it 
+is true. If you are coming at Python from a Java or C++ background, you must 
+significantly modify the way that you think about classes and objects to make 
+the transition. If you plan to progress from Python to either Java or C++, your 
+will need to significantly modify the way that you think about classes and 
+objects when you make that transition.
+
+</para>
+
+
+	
+	
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion and sample code
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+
+<para id="p1011">
+I will discuss three different short programs in this module. A complete 
+	listing of the first program is provided in 
+
+<link id="a1046" target-id="Image_13">
+
+Listing 9
+
+</link>
+
+. The output from that 
+	program is shown in 
+
+<link id="a1047" target-id="Image_14">
+
+Figure 5
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<para id="p1012">
+I will break each program down and discuss it in fragments. The first 
+fragment is shown in 
+
+<link id="a1048" target-id="Image_1">
+
+Listing 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Empty_objects" effect="bold">
+
+Empty objects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1013">
+<link id="a1049" target-id="Image_1">
+
+Listing 1
+
+</link>
+
+ shows the definition of a class named 
+
+<emphasis id="strong1001" effect="bold">
+TestClass
+
+</emphasis>
+ 
+	that contains no variables and no methods. In other words, the class is 
+	empty.
+
+</para>
+
+
+
+
+	
+
+<table id="table1000" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1000">
+
+			
+
+<row id="tr1000">
+
+				
+
+<entry id="th1000">
+<emphasis id="Image_1" effect="bold">
+
+Listing 1
+
+</emphasis>
+
+. Empty objects.
+
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1000">
+
+			
+
+<row id="tr1001">
+
+				
+
+<entry id="td1000">
+
+
+
+
+<code id="pre1000" display="block">
+class TestClass(object):
+    pass
+
+print("Instantiate and display two objects of TestClass")
+ref01 = TestClass()
+print(ref01)
+ref02 = TestClass()
+print(ref02)
+
+</code>
+
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<section id="h31002">
+<title>
+<emphasis id="Instantiate_two_objects_of_the_empty_class" effect="bold">
+
+Instantiate two 
+	objects of the empty class
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+<link id="a1050" target-id="Image_1">
+
+Listing 1
+
+</link>
+
+ also shows the instantiation of two objects from the empty class 
+named 
+
+<emphasis id="strong1002" effect="bold">
+TestClass
+
+</emphasis>
+. Those object's references are stored in the 
+variables named 
+
+<emphasis id="strong1003" effect="bold">
+ref01
+
+</emphasis>
+ and 
+
+<emphasis id="strong1004" effect="bold">
+ref02
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1015">
+The variables are also printed in 
+
+<link id="a1051" target-id="Image_1">
+
+Listing 1
+
+</link>
+
+ producing the output shown in 
+
+
+<link id="a1052" target-id="Image_2">
+
+Figure 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<table id="table1001" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1001">
+
+			
+
+<row id="tr1002">
+
+				
+
+<entry id="th1001">
+<emphasis id="Image_2" effect="bold">
+
+Figure 1
+
+</emphasis>
+
+. Print the object's 
+				references.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1001">
+
+			
+
+<row id="tr1003">
+
+				
+
+<entry id="td1001">
+
+
+
+
+<code id="pre1001" display="block">
+Instantiate and display two objects of TestClass
+&lt;__main__.TestClass object at 0x00274910&gt;
+&lt;__main__.TestClass object at 0x005A25F0&gt;
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1016">
+I told you in an earlier module that the variables named 
+
+<emphasis id="strong1005" effect="bold">
+ref01
+
+</emphasis>
+ 
+	and 
+
+<emphasis id="strong1006" effect="bold">
+ref02
+
+</emphasis>
+ contain information 
+	that somehow identifies the chunks of memory occupied by the objects. This 
+	is indicated by the two hexadecimal values at the right end of the last two 
+	lines of text in 
+
+<link id="a1053" target-id="Image_2">
+
+Figure 1
+
+</link>
+
+. This is apparently one thing that can't be 
+	changed about an object after it is instantiated. Even after modifying the 
+	contents of an object, the hexadecimal identifier seems to remain constant.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Would_be_worthless_in_Java_or_C" effect="bold">
+
+Would be almost worthless in Java or C++
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+Although it would be technically possible to define an empty class and 
+instantiate objects from that class in Java and C++, such objects probably 
+wouldn't be very useful in their own right.
+
+</para>
+
+
+
+
+<para id="p1018">
+In Python, you can define an empty class and instantiate objects from that 
+class. You can add instance variables to the object at runtime after it 
+is instantiated, which might be useful in some situations. As you will see in a 
+future module, you can even add class variables to a class after it has been 
+used to instantiate objects. That might also be useful in some situations.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Add_an_instance_variable_to_one_object" effect="bold">
+
+Add an instance variable to 
+one object
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+The code in 
+
+<link id="a1054" target-id="Image_3">
+
+Listing 2
+
+</link>
+
+ uses the variable named 
+
+<emphasis id="strong1007" effect="bold">
+ref01
+
+</emphasis>
+ to add a 
+new variable with a value of 
+
+<emphasis id="em1009" effect="italics">
+1234
+
+</emphasis>
+ to the object referred to by 
+
+<emphasis id="strong1008" effect="bold">
+ref01
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+	
+
+<table id="table1002" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1002">
+
+			
+
+<row id="tr1004">
+
+				
+
+<entry id="th1002">
+<emphasis id="Image_3" effect="bold">
+
+Listing 2
+
+</emphasis>
+
+. Add an instance 
+				variable to one object.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1002">
+
+			
+
+<row id="tr1005">
+
+				
+
+<entry id="td1002">
+
+
+
+
+<code id="pre1002" display="block">
+print("Add an instance variable to one object and display it")
+ref01.iVar = 1234
+print(ref01.iVar)
+
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1020">
+<link id="a1055" target-id="Image_3">
+
+Listing 2
+
+</link>
+
+ also uses the reference variable named 
+
+<emphasis id="strong1009" effect="bold">
+ref01
+
+</emphasis>
+ 
+	to print the value of the new variable belonging to the object referred to 
+	by 
+
+<emphasis id="strong1010" effect="bold">
+ref01
+
+</emphasis>
+. 
+
+<link id="a1056" target-id="Image_4">
+
+Figure 2
+
+</link>
+
+ shows the output 
+	produced by the code in 
+
+<link id="a1057" target-id="Image_3">
+
+Listing 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<table id="table1003" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1003">
+
+			
+
+<row id="tr1006">
+
+				
+
+<entry id="th1003">
+<emphasis id="Image_4" effect="bold">
+
+Figure 2
+
+</emphasis>
+
+. Output from the code 
+				in Listing 2.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1003">
+
+			
+
+<row id="tr1007">
+
+				
+
+<entry id="td1003">
+
+
+
+
+<code id="pre1003" display="block">
+Add an instance variable to one object and display it
+1234
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Try_to_display_the_same_instance_variable_in_the_other_object" effect="bold">
+
+Try to display the same instance variable in the other object
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1021">
+The code in 
+
+<link id="a1058" target-id="Image_5">
+
+Listing 3
+
+</link>
+
+ uses the variable named 
+
+<emphasis id="strong1011" effect="bold">
+ref02
+
+</emphasis>
+ in an 
+attempt to display the same instance variable on the object referred to by 
+
+<emphasis id="strong1012" effect="bold">
+ref02
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+	
+
+<table id="table1004" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1004">
+
+			
+
+<row id="tr1008">
+
+				
+
+<entry id="th1004">
+<emphasis id="Image_5" effect="bold">
+
+Listing 3
+
+</emphasis>
+
+. Try to display the same instance variable in the other object.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1004">
+
+			
+
+<row id="tr1009">
+
+				
+
+<entry id="td1004">
+
+
+
+
+<code id="pre1004" display="block">
+print("Try to display the same instance variable in the other object")
+print(ref02.iVar)
+
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1022">
+However, the code that added a new instance variable to one object in 
+	
+
+<link id="a1059" target-id="Image_3">
+
+Listing 2
+
+</link>
+
+ did not add the same instance variable to both objects that were 
+	originally instantiated from the same class. Therefore, at this point, the 
+	two objects have different structures. The code in 
+
+<link id="a1060" target-id="Image_5">
+
+
+	Listing 3
+
+</link>
+
+ produced the 
+	error message shown in 
+
+<link id="a1061" target-id="Image_6">
+
+Figure 3
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<table id="table1005" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1005">
+
+			
+
+<row id="tr1010">
+
+				
+
+<entry id="th1005">
+<emphasis id="Image_6" effect="bold">
+
+Figure 3
+
+</emphasis>
+
+. Output from the code 
+				in Listing 3.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1005">
+
+			
+
+<row id="tr1011">
+
+				
+
+<entry id="td1005">
+
+
+
+
+<code id="pre1005" display="block">
+Try to display the same instance variable in the other object
+Traceback (most recent call last):
+  File "1359-1430-13.py", line 18, in &lt;module&gt;
+    print(ref02.iVar)
+AttributeError: 'TestClass' object has no attribute 'iVar'
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Visualize_the_code_in_Listing_9" effect="bold">
+
+Visualize the code in Listing 9
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1023">
+I recommend that you create a
+
+
+<link id="a1062" url="http://pythontutor.com/visualize.html#mode=display">
+
+
+visualization
+
+</link>
+
+ for the code in 
+
+<link id="a1063" target-id="Image_13">
+
+Listing 9
+
+</link>
+
+ and step 
+through the program one instruction at a time. As you do that, pay attention to 
+the movements of the red and green arrows on the left, the diagram on the right, 
+and the printed material at the bottom. That should help you to better 
+understand the behavior of empty objects in Python.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Object_can_modify_itself_at_runtime" effect="bold">
+
+Object can modify itself 
+	at runtime
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+The next program that I will discuss is a minor modification to the previous 
+program but ends up with the same result. A complete listing of the program is 
+provided in 
+
+<link id="a1064" target-id="Image_15">
+
+Listing 10
+
+</link>
+
+ and the output from the program is shown in 
+
+
+<link id="a1065" target-id="Image_16">
+
+Figure 6
+
+</link>
+
+. I 
+will only discuss those things that are different between this program and the 
+previous program.
+
+</para>
+
+
+
+
+<section id="h31007">
+<title>
+<emphasis id="The_definition_of_a_class_named_TestClass" effect="bold">
+
+The definition of a 
+class named TestClass
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1025">
+The first difference is shown in 
+
+<link id="a1066" target-id="Image_7">
+
+Listing 4
+
+</link>
+
+, which shows the definition of a 
+class named 
+
+<emphasis id="strong1013" effect="bold">
+TestClass
+
+</emphasis>
+. Instead of being empty as in the previous program, this 
+class provides a method named 
+
+<emphasis id="strong1014" effect="bold">
+addInstanceVar
+
+</emphasis>
+ by which an object 
+can add and initialize a new instance variable named 
+
+<emphasis id="strong1015" effect="bold">
+iVar
+
+</emphasis>
+ to 
+itself at runtime.
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<table id="table1006" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1006">
+
+			
+
+<row id="tr1012">
+
+				
+
+<entry id="th1006">
+<emphasis id="Image_7" effect="bold">
+
+Listing 4
+
+</emphasis>
+
+. Object can modify 
+				itself at runtime.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1006">
+
+			
+
+<row id="tr1013">
+
+				
+
+<entry id="td1006">
+
+
+
+
+<code id="pre1006" display="block">
+class TestClass(object):
+    def addInstanceVar(self,data):
+        self.iVar = data
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1026">
+I am presenting and explaining this program for a couple of different 
+	reasons:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1046">
+It will be useful in explaining the method named 
+
+<emphasis id="strong1016" effect="bold">
+__init__
+
+</emphasis>
+ 
+	in the next program in this module.
+
+</item>
+
+
+	
+
+<item id="li1047">
+It will be useful in explaining issues surrounding class variables in a 
+	future module.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Add_an_instance_variable_to_one_object_and_display_it" effect="bold">
+
+Add an instance variable to one object and display it
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1027">
+The other difference between the two programs is shown in 
+
+<link id="a1067" target-id="Image_8">
+
+
+Listing 5
+
+</link>
+
+. Instead of 
+accessing the object directly to add the new instance variable, as was done in 
+
+
+<link id="a1068" target-id="Image_3">
+
+Listing 2
+
+</link>
+
+, the code in 
+
+<link id="a1069" target-id="Image_8">
+
+Listing 5
+
+</link>
+
+ calls the method named 
+
+<emphasis id="strong1017" effect="bold">
+addInstanceVar
+
+</emphasis>
+ 
+on the object to cause the new instance variable to be added.
+
+</para>
+
+
+	
+
+<table id="table1007" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1007">
+
+			
+
+<row id="tr1014">
+
+				
+
+<entry id="th1007">
+<emphasis id="Image_8" effect="bold">
+
+Listing 5
+
+</emphasis>
+
+. Add an instance variable to one object and display it.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1007">
+
+			
+
+<row id="tr1015">
+
+				
+
+<entry id="td1007">
+
+
+
+
+<code id="pre1007" display="block">
+print("Add an instance variable to one object and display it")
+ref01.addInstanceVar(1234)
+print(ref01.iVar)
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1028">
+As mentioned earlier, the end result is the same as you will see if you 
+	examine the output from the program shown in 
+
+<link id="a1070" target-id="Image_17">
+
+Listing 11
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Visualize_the_code_in_Listing_10" effect="bold">
+
+Visualize the code in Listing 10
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+Once again, I recommend that you create a
+
+
+<link id="a1071" url="http://pythontutor.com/visualize.html#mode=display">
+
+
+visualization
+
+</link>
+
+ for the code in 
+
+<link id="a1072" target-id="Image_15">
+
+Listing 10
+
+</link>
+
+ and step 
+through the program one instruction at a time. As you do that, pay attention to 
+the movements of the red and green arrows on the left, the diagram on the right, 
+and the printed material at the bottom. That should help you to better 
+understand how a Python object can modify itself at runtime.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="The_method_named___init__" effect="bold">
+
+The method named __init__
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+You learned in the previous program that a method belonging to an object can 
+add an instance variable to an object at runtime.
+
+</para>
+
+
+
+
+<para id="p1031">
+You also learned in an earlier module that if your class contains a method named
+
+
+<emphasis id="strong1018" effect="bold">
+__init__
+
+</emphasis>
+, that method will be executed automatically in 
+conjunction with the instantiation of the object. As I understand it, that is 
+probably the last thing that happens before the new object's reference is 
+returned to be saved for later use.
+
+</para>
+
+
+
+
+<para id="p1032">
+A complete listing of a program that I will use to discuss the 
+
+<emphasis id="strong1019" effect="bold">
+__init__
+
+</emphasis>
+ method is shown in 
+
+<link id="a1073" target-id="Image_17">
+
+
+Listing 11
+
+</link>
+
+. The output produced by that program is shown in 
+
+
+<link id="a1074" target-id="Image_18">
+
+Figure 7
+
+</link>
+
+. As usual, I will explain the program in fragments.
+
+</para>
+
+
+
+
+<section id="h31010">
+<title>
+<emphasis id="A_class_with_an___init___method" effect="bold">
+
+A class with an __init__ method
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+<link id="a1075" target-id="Image_9">
+
+Listing 6
+
+</link>
+
+ shows the definition of a class named 
+
+<emphasis id="strong1020" effect="bold">
+TestClass
+
+</emphasis>
+ that contains a 
+method named 
+
+<emphasis id="strong1021" effect="bold">
+__init__
+
+</emphasis>
+ in addition to a method named 
+
+<emphasis id="strong1022" effect="bold">
+
+addInstanceVar
+
+</emphasis>
+ as in the previous program.
+
+</para>
+
+
+
+
+	
+
+<table id="table1008" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1008">
+
+			
+
+<row id="tr1016">
+
+				
+
+<entry id="th1008">
+<emphasis id="Image_9" effect="bold">
+
+Listing 6
+
+</emphasis>
+
+. A class with an 
+				__init__ method.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1008">
+
+			
+
+<row id="tr1017">
+
+				
+
+<entry id="td1008">
+
+
+
+
+<code id="pre1008" display="block">
+class TestClass(object):
+    def __init__(self,data):
+        self.iVar01 = data
+    
+    def addInstanceVar(self,data):
+        self.iVar02 = data
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1034">
+When either of the methods shown in 
+
+<link id="a1076" target-id="Image_9">
+
+Listing 6
+
+</link>
+
+ are executed, a new instance 
+	variable will be added to the object and initialized with an incoming data 
+	value. Since the method named 
+
+<emphasis id="strong1023" effect="bold">
+__init__
+
+</emphasis>
+ is always executed automatically in 
+	conjunction with the instantiation of an object, the initial state of the 
+	object will include an instance variable named 
+
+<emphasis id="strong1024" effect="bold">
+iVar01
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Instantiate_and_display_two_objects" effect="bold">
+
+Instantiate and display two 
+objects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1035">
+The code in 
+
+<link id="a1077" target-id="Image_10">
+
+Listing 7
+
+</link>
+
+ instantiates and prints two new objects of the class 
+named 
+
+<emphasis id="strong1025" effect="bold">
+TestClass
+
+</emphasis>
+. You can view the output produced by the code 
+in 
+
+<link id="a1078" target-id="Image_10">
+
+Listing 7
+
+</link>
+
+ in 
+
+<link id="a1079" target-id="Image_18">
+
+Figure 7
+
+</link>
+
+. There probably won't be any surprises there.
+
+</para>
+
+
+
+
+	
+
+<table id="table1009" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1009">
+
+			
+
+<row id="tr1018">
+
+				
+
+<entry id="th1009">
+<emphasis id="Image_10" effect="bold">
+
+Listing 7
+
+</emphasis>
+
+. Instantiate and 
+				display two objects.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1009">
+
+			
+
+<row id="tr1019">
+
+				
+
+<entry id="td1009">
+
+
+
+
+<code id="pre1009" display="block">
+print("Instantiate and display two objects of TestClass")
+ref01 = TestClass("ABCD")
+print(ref01)
+
+ref02 = TestClass("DEFG")
+print(ref02)
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="The_incoming_parameter_to_the___init___method" effect="bold">
+
+The incoming 
+	parameter to the __init__ method
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1036">
+You may have been wondering about the source of the incoming parameter 
+	named 
+
+<emphasis id="strong1026" effect="bold">
+data
+
+</emphasis>
+ for the 
+
+<emphasis id="strong1027" effect="bold">
+__init__
+
+</emphasis>
+ method in 
+	
+
+<link id="a1080" target-id="Image_9">
+
+Listing 6
+
+</link>
+
+. Note that each call to 
+
+<emphasis id="strong1028" effect="bold">
+TestClass
+
+</emphasis>
+ in 
+
+<link id="a1081" target-id="Image_10">
+
+
+Listing 7
+
+</link>
+
+ 
+	passes a different parameter. These are the parameters that are 
+	automatically passed to the 
+
+<emphasis id="strong1029" effect="bold">
+__init__
+
+</emphasis>
+ method when it is 
+	executed. Therefore, when one object is instantiated, the 
+
+<emphasis id="strong1030" effect="bold">
+__init__
+
+</emphasis>
+ method 
+	will receive "ABCD" as an incoming parameter. When the other object is 
+	instantiated, it will receive "DEFG" as an incoming parameter.
+
+</para>
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="Display_first_instance_variable_from_both_objects" effect="bold">
+
+Display first instance variable from both objects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+Because the
+
+<emphasis id="strong1031" effect="bold">
+ __init__ 
+
+</emphasis>
+method is included in the class 
+definition and because it is automatically executed when a new object is 
+instantiated, each object contains an instance variable named 
+
+<emphasis id="strong1032" effect="bold">
+iVar01
+
+</emphasis>
+ 
+when the instantiation of the object is complete.
+
+</para>
+
+
+
+
+<para id="p1038">
+The code in 
+
+<link id="a1082" target-id="Image_11">
+
+Listing 8
+
+</link>
+
+ displays the value of the instance variable named
+
+
+<emphasis id="strong1033" effect="bold">
+iVar01
+
+</emphasis>
+ in each object.
+
+</para>
+
+
+	
+
+<table id="table1010" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1010">
+
+			
+
+<row id="tr1020">
+
+				
+
+<entry id="th1010">
+<emphasis id="Image_11" effect="bold">
+
+Listing 8
+
+</emphasis>
+
+. Display first instance variable from both objects.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1010">
+
+			
+
+<row id="tr1021">
+
+				
+
+<entry id="td1010">
+
+
+
+
+<code id="pre1010" display="block">
+print("Display first instance variable from both objects")
+print(ref01.iVar01)
+print(ref02.iVar01)
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+<para id="p1039">
+<link id="a1083" target-id="Image_12">
+
+Figure 4
+
+</link>
+
+ shows the output from the code in 
+
+<link id="a1084" target-id="Image_11">
+
+
+	Listing 8
+
+</link>
+
+. Note that the last 
+	two lines of text in 
+
+<link id="a1085" target-id="Image_12">
+
+Figure 4
+
+</link>
+
+ match the values passed as parameters when the 
+	objects were instantiated in 
+
+<link id="a1086" target-id="Image_10">
+
+Listing 7
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<table id="table1011" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1011">
+
+			
+
+<row id="tr1022">
+
+				
+
+<entry id="th1011">
+<emphasis id="Image_12" effect="bold">
+
+Figure 4
+
+</emphasis>
+
+. Output from the 
+				code in Listing 8.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1011">
+
+			
+
+<row id="tr1023">
+
+				
+
+<entry id="td1011">
+
+
+
+
+<code id="pre1011" display="block">
+Display first instance variable from both objects
+ABCD
+DEFG
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="The_remainder_of_the_program" effect="bold">
+
+The remainder of the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+The remaining code shown in 
+
+<link id="a1087" target-id="Image_17">
+
+Listing 11
+
+</link>
+
+ is essentially the same as the 
+corresponding code shown in 
+
+<link id="a1088" target-id="Image_15">
+
+Listing 10
+
+</link>
+
+ that was discussed earlier. Therefore, no 
+explanation of the remaining code should be needed.
+
+</para>
+
+
+
+
+<para id="p1041">
+Hopefully you have a better understanding of Python instance variables now than 
+when you began studying this module.
+
+</para>
+
+
+
+
+</section>
+<section id="h31015">
+<title>
+<emphasis id="Visualize_the_code_in_Listing_11" effect="bold">
+
+Visualize the code in Listing 11
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+As usual, I recommend that you create a
+
+
+<link id="a1089" url="http://pythontutor.com/visualize.html#mode=display">
+
+
+visualization
+
+</link>
+
+ for the code in 
+
+<link id="a1090" target-id="Image_17">
+
+Listing 11
+
+</link>
+
+ and step 
+through the program one instruction at a time. As you do that, pay attention to 
+the movements of the red and green arrows on the left, the diagram on the right, 
+and the printed material at the bottom. That should help you to better 
+understand the 
+
+<emphasis id="strong1034" effect="bold">
+__init__
+
+</emphasis>
+ method and the initialization of 
+objects in Python.
+
+</para>
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1043">
+I also encourage you to copy the code from 
+
+<link id="a1091" target-id="Image_13">
+
+Listing 9
+
+</link>
+
+, 
+
+<link id="a1092" target-id="Image_15">
+
+
+Listing 10
+
+</link>
+
+, and 
+
+<link id="a1093" target-id="Image_17">
+
+Listing 11
+
+</link>
+
+. 
+Execute the code and confirm that you get the same results as those shown. Experiment with the code, 
+making changes, and observing the results of your changes. Make certain that you 
+can explain why your changes behave as they do.
+
+</para>
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Complete_program_listings" effect="bold">
+
+Complete program listings
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+Complete listings of the programs discussed in this module along with the 
+output produced by those programs are provided below.
+
+</para>
+
+
+	
+
+<table id="table1012" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1012">
+
+			
+
+<row id="tr1024">
+
+				
+
+<entry id="th1012">
+<emphasis id="Image_13" effect="bold">
+
+Listing 9
+
+</emphasis>
+
+. Complete 
+				program listing.
+
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1012">
+
+			
+
+<row id="tr1025">
+
+				
+
+<entry id="td1012">
+
+
+
+
+<code id="pre1012" display="block">
+# This program illustrates an empty object
+#---------------------------------------------------------------------
+class TestClass(object):
+    pass
+
+print("Instantiate and display two objects of TestClass")
+ref01 = TestClass()
+print(ref01)
+ref02 = TestClass()
+print(ref02)
+
+print("Add an instance variable to one object and display it")
+ref01.iVar = 1234
+print(ref01.iVar)
+
+print("Try to display the same instance variable in the other object")
+print(ref02.iVar)
+</code>
+
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+	
+
+<table id="table1013" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1013">
+
+			
+
+<row id="tr1026">
+
+				
+
+<entry id="th1013">
+<emphasis id="Image_14" effect="bold">
+
+Figure 5
+
+</emphasis>
+
+. Output from 
+				code in Listing 9.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1013">
+
+			
+
+<row id="tr1027">
+
+				
+
+<entry id="td1013">
+
+
+
+
+<code id="pre1013" display="block">
+Instantiate and display two objects of TestClass
+&lt;__main__.TestClass object at 0x00274910&gt;
+&lt;__main__.TestClass object at 0x005A25F0&gt;
+Add an instance variable to one object and display it
+1234
+Try to display the same instance variable in the other object
+Traceback (most recent call last):
+File "1359-1430-13.py", line 18, in &lt;module&gt;
+print(ref02.iVar)
+AttributeError: 'TestClass' object has no attribute 'iVar'
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+	
+
+	
+
+<table id="table1014" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1014">
+
+			
+
+<row id="tr1028">
+
+				
+
+<entry id="th1014">
+<emphasis id="Image_15" effect="bold">
+
+Listing 10
+
+</emphasis>
+
+. Complete 
+				program listing.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1014">
+
+			
+
+<row id="tr1029">
+
+				
+
+<entry id="td1014">
+
+
+
+
+<code id="pre1014" display="block">
+# Illustrates ability for object to modify itself at runtime
+#---------------------------------------------------------------------------
+
+class TestClass(object):
+    def addInstanceVar(self,data):
+        self.iVar = data
+
+print("Instantiate and display two objects of TestClass")
+ref01 = TestClass()
+print(ref01)
+ref02 = TestClass()
+print(ref02)
+
+print("Add an instance variable to one object and display it")
+ref01.addInstanceVar(1234)
+print(ref01.iVar)
+
+print("Try to display the same instance variable in the other object")
+print(ref02.iVar)
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+	
+
+	
+
+<table id="table1015" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1015">
+
+			
+
+<row id="tr1030">
+
+				
+
+<entry id="th1015">
+<emphasis id="Image_16" effect="bold">
+
+Figure 6
+
+</emphasis>
+
+. Output from 
+				code in Listing 10.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1015">
+
+			
+
+<row id="tr1031">
+
+				
+
+<entry id="td1015">
+
+
+
+
+<code id="pre1015" display="block">
+Instantiate and display two objects of TestClass
+&lt;__main__.TestClass object at 0x00224910&gt;
+&lt;__main__.TestClass object at 0x00512850&gt;
+Add an instance variable to one object and display it
+1234
+Try to display the same instance variable in the other object
+Traceback (most recent call last):
+File "1359-1430-15.py", line 20, in &lt;module&gt;
+print(ref02.iVar)
+AttributeError: 'TestClass' object has no attribute 'iVar'
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+	
+
+	
+
+<table id="table1016" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1016">
+
+			
+
+<row id="tr1032">
+
+				
+
+<entry id="th1016">
+<emphasis id="Image_17" effect="bold">
+
+Listing 11
+
+</emphasis>
+
+. Complete 
+				program listing.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1016">
+
+			
+
+<row id="tr1033">
+
+				
+
+<entry id="td1016">
+
+
+
+
+<code id="pre1016" display="block">
+# This program illustrates instance variables and the __init__ method
+#---------------------------------------------------------------------------
+class TestClass(object):
+    def __init__(self,data):
+        self.iVar01 = data
+    
+    def addInstanceVar(self,data):
+        self.iVar02 = data
+
+print("Instantiate and display two objects of TestClass")
+ref01 = TestClass("ABCD")
+print(ref01)
+ref02 = TestClass("DEFG")
+print(ref02)
+
+print("Display first instance variable from both objects")
+print(ref01.iVar01)
+print(ref02.iVar01)
+
+print("Add an instance variable to one object and display it")
+ref01.addInstanceVar(1234)
+print(ref01.iVar02)
+
+print("Try to display the same instance variable in the other object")
+print(ref02.iVar02)
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+	
+
+	
+
+<table id="table1017" summary="This is a table." pgwide="630">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1017">
+
+			
+
+<row id="tr1034">
+
+				
+
+<entry id="th1017">
+<emphasis id="Image_18" effect="bold">
+
+Figure 7
+
+</emphasis>
+
+. Output from 
+				code in Listing 11.
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1017">
+
+			
+
+<row id="tr1035">
+
+				
+
+<entry id="td1017">
+
+
+
+
+<code id="pre1017" display="block">
+Instantiate and display two objects of TestClass
+&lt;__main__.TestClass object at 0x00492E50&gt;
+&lt;__main__.TestClass object at 0x00492E70&gt;
+Display first instance variable from both objects
+ABCD
+DEFG
+Add an instance variable to one object and display it
+1234
+Try to display the same instance variable in the other object
+Traceback (most recent call last):
+  File "1359-1430-17.py", line 26, in &lt;module&gt;
+    print(ref02.iVar02)
+AttributeError: 'TestClass' object has no attribute 'iVar02'
+</code>
+
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+
+	
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1045">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1035" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1010" list-type="bulleted">
+
+					
+
+<item id="li1048">
+Module name: Itse1359-1430-Instance Variables
+
+</item>
+
+
+					
+
+<item id="li1049">
+File: Itse1359-1430.htm
+
+
+</item>
+
+
+					
+
+<item id="li1050">
+Published: 10/27/14
+
+</item>
+
+
+
+
+<item id="li1051">
+Revised: 03/04/15
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1001" type="">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1036" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1046">
+<emphasis id="strong1037" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1047">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1048">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1049">
+<emphasis id="strong1038" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+	
+
+<para id="p1050">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

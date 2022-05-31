@@ -1,0 +1,423 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>JunkTableWidthTest</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60408</md:content-id>
+  <md:title>JunkTableWidthTest</md:title>
+  <md:abstract>A module to compare the effect of pgwide in Rewrite and Legacy</md:abstract>
+  <md:uuid>8031191c-dda9-45a6-8e58-2857a06173d3</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+JUNK JUNK JUNK
+
+</title>
+
+
+
+
+<section id="h21000">
+<title>
+Table width test.
+
+</title>
+
+
+
+
+<para id="p1000">
+The following table has a width value of 0
+
+</para>
+
+
+
+
+<table id="table1000" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1000">
+
+
+
+<row id="tr1000">
+
+
+
+<entry id="th1000">
+
+
+
+<emphasis id="Figure_1" effect="bold">
+
+Figure 1.
+
+</emphasis>
+
+ 0.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1000">
+
+
+
+<row id="tr1001">
+
+
+
+<entry id="td1000">
+
+
+
+<media id="media1000" alt="nissing image" display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/baldwin.jpg" width="125" height="144"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1001">
+The following table has a width value of 1.
+
+</para>
+
+
+
+
+
+<table id="table1001" summary="A table." pgwide="1">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1001">
+
+
+
+<row id="tr1002">
+
+
+
+<entry id="th1001">
+
+
+
+<emphasis id="Figure_2" effect="bold">
+
+Figure 2.
+
+</emphasis>
+
+ 1.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1001">
+
+
+
+<row id="tr1003">
+
+
+
+<entry id="td1001">
+
+
+
+<media id="media1001" alt="missing image" display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/baldwin.jpg" width="125" height="144"/>
+</media>
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1002">
+The following table has a width value of 0.
+
+</para>
+
+
+
+
+
+<table id="table1002" summary="A table." pgwide="0">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1002">
+
+
+
+<row id="tr1004">
+
+
+
+<entry id="th1002">
+
+
+
+<emphasis id="Figure_3" effect="bold">
+
+Figure 3.
+
+</emphasis>
+
+ 0.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1002">
+
+
+
+<row id="tr1005">
+
+
+
+<entry id="td1002">
+
+
+
+<para id="p1003">
+Four score and seven years ago...
+
+</para>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1004">
+The following table has a width value of 1. 
+
+</para>
+
+
+
+
+
+<table id="table1003" summary="A table." pgwide="1">
+<tgroup cols="1">
+
+
+
+
+
+<thead id="thead1003">
+
+
+
+<row id="tr1006">
+
+
+
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_4" effect="bold">
+
+Figure 4.
+
+</emphasis>
+
+ 1.
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</thead>
+
+
+
+
+
+<tbody id="tbody1003">
+
+
+
+<row id="tr1007">
+
+
+
+<entry id="td1003">
+
+
+
+<para id="p1005">
+Four score and seven years ago...
+
+</para>
+
+
+
+
+</entry>
+
+
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<para id="p1006">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+</content>
+
+
+
+
+</document>

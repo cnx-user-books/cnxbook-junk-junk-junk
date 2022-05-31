@@ -1,0 +1,629 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Test page for Figure, Listing, Note, and Table objects</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m51867</md:content-id>
+  <md:title>Test page for Figure, Listing, Note, and Table objects</md:title>
+  <md:abstract>Test page for Figure, Listing, Note, and Table objects</md:abstract>
+  <md:uuid>d49bf812-ebb4-4b7d-968b-5c3812b8c18c</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1000">
+This is a test document to compare the display of cnxml Figure, Listing, 
+Note, and Table objects. 
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_1a0" effect="bold">
+</emphasis>
+zz
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1000" display="block">
+This is a cnxml Figure object.
+</code>
+
+
+
+
+							
+
+<caption>zz</caption>
+</figure>
+
+						
+
+
+					
+
+
+
+				
+
+
+
+	
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_2a0" effect="bold">
+</emphasis>
+zz
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1001" display="block">
+This is another cnxml Figure object.
+</code>
+
+
+
+							
+
+<caption>zz</caption>
+</figure>
+
+						
+
+
+					
+
+
+
+				
+
+
+
+	
+
+
+	
+
+<example id="listing1000" type="listing">
+<label>Listing</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_3a0" effect="bold">
+</emphasis>
+zz
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1002" display="block">
+This is a cnxml Listing object.
+</code>
+
+
+
+							
+
+</example>
+
+						
+
+
+					
+
+
+
+				
+
+
+
+	
+
+
+	
+
+<example id="listing1001" type="listing">
+<label>Listing</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_4a0" effect="bold">
+</emphasis>
+zz
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1003" display="block">
+This is another cnxml Listing object.
+</code>
+
+
+
+							
+
+</example>
+
+						
+
+
+					
+
+
+
+				
+
+
+
+	
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1004" display="block">
+This is a cnxml Note object.
+</code>
+
+
+
+							
+
+</note>
+
+						
+
+
+					
+
+
+
+				
+
+
+
+	
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1005" display="block">
+This is another cnxml Note object.
+</code>
+
+
+
+							
+
+</note>
+
+						
+
+
+					
+
+
+
+				
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+<table id="table1000" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1000">
+
+			
+
+<row id="tr1000">
+
+				
+
+<entry id="th1000">
+<emphasis id="Image_7a1" effect="bold">
+
+Image 7a
+
+</emphasis>
+
+. zz
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1000">
+
+			
+
+<row id="tr1001">
+
+				
+
+<entry id="td1000">
+
+
+
+<code id="pre1006" display="block">
+This is a cnxml Table object.
+</code>
+
+
+
+							
+
+</entry>
+
+						
+
+</row>
+
+					
+
+</tbody>
+
+
+				
+
+</tgroup>
+</table>
+
+
+	
+
+
+	
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1001">
+
+			
+
+<row id="tr1002">
+
+				
+
+<entry id="th1001">
+<emphasis id="Image_8a1" effect="bold">
+
+Image 8a
+
+</emphasis>
+
+. zz
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1001">
+
+			
+
+<row id="tr1003">
+
+				
+
+<entry id="td1001">
+
+
+
+<code id="pre1007" display="block">
+This is another cnxml Table object.
+</code>
+
+
+
+							
+
+</entry>
+
+						
+
+</row>
+
+					
+
+</tbody>
+
+
+				
+
+</tgroup>
+</table>
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1002">
+<row id="tr1004">
+<entry id="th1002">
+
+
+
+<emphasis id="Image_19" effect="bold">
+
+Image 1
+
+</emphasis>
+
+. Table object with an image.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1002">
+<row id="tr1005">
+<entry id="td1002">
+
+
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/baldwin.jpg" width="125" height="144"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+<para id="p1001">
+-end- 
+
+</para>
+
+
+
+
+
+
+</content>
+
+
+
+
+</document>

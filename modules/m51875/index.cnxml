@@ -1,0 +1,1678 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>TableFigAndListingNumbers</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m51875</md:content-id>
+  <md:title>TableFigAndListingNumbers</md:title>
+  <md:abstract>TableFigAndListingNumbers</md:abstract>
+  <md:uuid>89a709ae-e406-4ead-bc2d-a3a170c31aab</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1001">
+<link id="a1001" target-id="Questions">
+
+Questions
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="question01">
+
+1
+
+</link>
+
+, 
+
+<link id="a1003" target-id="question02">
+
+2
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1004" target-id="Answers">
+
+Answers
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1005" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+The purpose of this module is to illustrate that:
+
+</para>
+
+
+
+
+<list id="ul1002" list-type="bulleted">
+
+	
+
+<item id="li1005">
+It is not a good idea to require that identifiers for cnxml 
+
+<emphasis id="strong1000" effect="bold">
+Figure
+
+</emphasis>
+ 
+	objects and cnxml 
+
+<emphasis id="strong1001" effect="bold">
+Listing
+
+</emphasis>
+ objects be restricted solely to sequential 
+	numbers. 
+
+<emphasis id="em1000" effect="italics">
+(Note that this module uses identifiers like 
+
+</emphasis>
+ 
+
+
+<link id="a1006" target-id="Figure_1a">
+
+
+<emphasis id="em1001" effect="italics">
+Figure 1a
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1002" effect="italics">
+ and 
+
+
+</emphasis>
+ 
+
+
+<link id="a1007" target-id="Figure_1b">
+
+
+<emphasis id="em1003" effect="italics">
+Figure 1b
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1004" effect="italics">
+ to cause the identifiers to fit into the context of the discussion.)
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1006">
+It is not a good idea to require that identifiers for cnxml 
+
+<emphasis id="strong1002" effect="bold">
+Figure
+
+</emphasis>
+ 
+	objects and cnxml 
+
+<emphasis id="strong1003" effect="bold">
+Listing
+
+</emphasis>
+ objects be determined by the physical 
+	locations of 
+	the objects on a web page. 
+
+<emphasis id="em1005" effect="italics">
+(Note that 
+
+</emphasis>
+ 
+
+<link id="a1008" target-id="Listing_1b">
+
+
+<emphasis id="em1006" effect="italics">
+Listing 1b
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1007" effect="italics">
+ 
+	is closer to the end of the webpage than 
+
+
+</emphasis>
+ 
+
+
+<link id="a1009" target-id="Listing_2">
+
+
+<emphasis id="em1008" effect="italics">
+Listing 2
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1009" effect="italics">
+ to cause the identifiers to fit 
+	into the context of navigating back and forth between two major sections of 
+	the web page.)
+
+</emphasis>
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Questions" effect="bold">
+
+Questions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="question01" effect="bold">
+
+Question 1
+
+</emphasis>
+
+
+<emphasis id="strong1004" effect="bold">
+. 
+
+</emphasis>
+ 
+
+</title>
+
+
+
+
+<para id="p1001">
+<emphasis id="strong1005" effect="bold">
+True or False?
+
+</emphasis>
+ Given the input image file named 
+
+<emphasis id="strong1006" effect="bold">
+Q01.jpg
+
+</emphasis>
+ shown in 
+
+
+<link id="a1010" target-id="Figure_1a">
+
+Figure 1a
+
+</link>
+
+, 
+the code in 
+
+<link id="a1011" target-id="Listing_1a">
+
+Listing 1a
+
+</link>
+
+ produces the output image shown in 
+
+
+<link id="a1012" target-id="Figure_1b">
+
+Figure 1b
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<table id="table1000" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+
+
+<thead id="thead1000">
+<row id="tr1000">
+<entry id="th1000">
+<emphasis id="Figure_1a" effect="bold">
+
+Figure 1a
+
+</emphasis>
+
+. Input image.
+
+
+</entry>
+</row>
+</thead>
+
+
+
+
+<tbody id="tbody1000">
+
+
+
+<row id="tr1001">
+<entry id="td1000">
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/Q01.jpg" width="320" height="240"/>
+</media>
+
+
+
+
+</entry>
+</row>
+
+
+
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+<table id="table1001" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+	
+
+<thead id="thead1001">
+
+		
+
+<row id="tr1002">
+
+			
+
+<entry id="th1001">
+<emphasis id="Listing_1a" effect="bold">
+
+Listing 1a
+
+</emphasis>
+
+. 
+			Program Q01a. 
+
+</entry>
+
+
+		
+
+</row>
+
+	
+
+</thead>
+
+
+
+
+<tbody id="tbody1001">
+
+	
+
+<row id="tr1003">
+
+		
+
+<entry id="td1001">
+
+		
+
+<code id="pre1000" display="block">public class Q01a{
+  public static void main(String[] args){
+    Picture pic = new Q01aRunner().run();
+  }//end main method
+}//end class Q01a
+
+
+class Q01aRunner{
+
+  public Picture run(){
+    Picture pix = new Picture("Q01.jpg");
+
+    pix = mirrorUpperBand(
+                 pix,1+pix.getWidth()/4,pix.getWidth()/4);
+    pix = mirrorUpperBand(
+                   pix,pix.getWidth()/2,pix.getWidth()/2);
+    pix.explore();
+    return pix;
+
+  }//end run
+  //----------------------------------------------------//
+
+  private Picture mirrorUpperBand(
+                        Picture pix,int center,int width){
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+
+    for(int row = 0;row &lt; pix.getHeight()/2;row++){
+      for(int cnt=0;cnt &lt; width;cnt++){
+        int leftCol = center-cnt;
+        int rightCol = center+cnt;
+        leftPixel = pix.getPixel(leftCol,row);
+        rightPixel = pix.getPixel(rightCol,row);
+        rightPixel.setColor(leftPixel.getColor());
+      }//end inner loop
+    }//end outer loop
+
+    return pix;
+  }//end mirrorUpperBand
+  //----------------------------------------------------//
+
+}//end class Q01aRunner
+</code>
+
+
+		
+
+</entry>
+
+	
+
+</row>
+
+
+
+</tbody>
+
+
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+<table id="table1002" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+	
+
+<thead id="thead1002">
+
+		
+
+<row id="tr1004">
+
+			
+
+<entry id="th1002">
+<emphasis id="Figure_1b" effect="bold">
+
+Figure 1b
+
+</emphasis>
+
+. Output image. 
+
+</entry>
+
+		
+
+</row>
+
+	
+
+</thead>
+
+
+
+
+<tbody id="tbody1002">
+	
+
+<row id="tr1005">
+
+		
+
+<entry id="td1002">
+
+		
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/q1bout.jpg" width="342" height="386"/>
+</media>
+
+
+		
+
+</entry>
+
+	
+
+</row>
+
+
+
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+<para id="p1002">
+Go to 
+
+<link id="a1013" target-id="answer01">
+
+Answer 1
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="question02" effect="bold">
+
+Question 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+<emphasis id="strong1007" effect="bold">
+True or False?
+
+</emphasis>
+ Given the input image files named 
+
+<emphasis id="strong1008" effect="bold">
+Q02a.jpg
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1009" effect="bold">
+Q02b.jpg
+
+</emphasis>
+ shown in 
+
+<link id="a1014" target-id="Figure_2a">
+
+Figure 2a
+
+</link>
+
+ and 
+
+
+<link id="a1015" target-id="Figure_2b">
+
+Figure 2b
+
+</link>
+
+ respectively, the code in 
+
+
+<link id="a1016" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ produces the output image shown in 
+
+
+<link id="a1017" target-id="Figure_2c">
+
+Figure 2c
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<table id="table1003" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1003">
+<row id="tr1006">
+<entry id="th1003">
+
+
+
+<emphasis id="Figure_2a" effect="bold">
+
+Figure 2a
+
+</emphasis>
+
+. Input image file Q02a.jpg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1003">
+<row id="tr1007">
+<entry id="td1003">
+
+		
+
+<media id="media1002" alt="missing image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/Q02a.jpg" width="348" height="317"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+
+
+<table id="table1004" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1004">
+<row id="tr1008">
+<entry id="th1004">
+
+
+
+<emphasis id="Figure_2b" effect="bold">
+
+Figure 2b
+
+</emphasis>
+
+. Input image file Q02b.jpg.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1004">
+<row id="tr1009">
+<entry id="td1004">
+
+		
+
+<media id="media1003" alt="missing image" display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/Q02b.jpg" width="348" height="317"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+	
+
+<table id="table1005" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+		
+
+<thead id="thead1005">
+
+			
+
+<row id="tr1010">
+
+				
+
+<entry id="th1005">
+<emphasis id="Listing_2" effect="bold">
+
+Listing 2
+
+</emphasis>
+
+. 
+				Program Q02.
+
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</thead>
+
+
+		
+
+<tbody id="tbody1005">
+
+			
+
+<row id="tr1011">
+
+				
+
+<entry id="td1005">
+
+
+
+<code id="pre1001" display="block">
+import java.awt.Graphics2D;
+import java.awt.geom.Rectangle2D;
+import java.awt.Graphics;
+import java.awt.Polygon;
+import java.awt.Color;
+
+public class Q02{
+  //DO NOT MODIFY THE CODE IN THIS CLASS DEFINITION.
+  public static void main(String[] args){
+    new Q02Runner().run();
+  }//end main method
+}//end class Q02
+
+class Q02Runner{
+
+  public void run(){
+    Picture penguin = new Picture("Q02a.jpg");
+    Picture hare = new Picture("Q02b.jpg");
+    penguin = crop(penguin,6,58,330,252);
+    hare = crop(hare,6,58,330,252);
+
+    hare = clipToPolygon(hare,Color.RED);
+    penguin = clipToPolygon(penguin,Color.GREEN);
+
+    merge(hare,penguin);
+
+    hare.show();
+    System.out.println(hare);
+  }//end run
+  //----------------------------------------------------//
+
+  //Assumes both pictures have the same dimensions.
+  // Does a linear merge on two pictures based on the
+  // distance of each pixel from the left side of the
+  // picture.
+  private void merge(Picture left,Picture right){
+    int width = left.getWidth();
+    int height = left.getHeight();
+
+    double scaleL = 0;
+    double scaleR = 0;
+    int redL = 0;
+    int greenL = 0;
+    int blueL = 0;
+    int redR = 0;
+    int greenR = 0;
+    int blueR = 0;
+    Pixel pixelL = null;
+    Pixel pixelR = null;
+
+    for(int row = 0;row &lt; height;row++){
+      for(int col = 0;col &lt; width;col++){
+        scaleR = (double)col/width;
+        scaleL = 1.0 - scaleR;
+        pixelL = left.getPixel(col,row);
+        pixelR = right.getPixel(col,row);
+
+        redL = pixelL.getColor().getRed();
+        greenL = pixelL.getColor().getGreen();
+        blueL = pixelL.getColor().getBlue();
+
+        redR = pixelR.getColor().getRed();
+        greenR = pixelR.getColor().getGreen();
+        blueR = pixelR.getColor().getBlue();
+
+        redL = (int)(redL*scaleL + redR*scaleR);
+        greenL = (int)(greenL*scaleL + greenR*scaleR);
+        blueL = (int)(blueL*scaleL + blueR*scaleR);
+
+        pixelL.setColor(new Color(redL,greenL,blueL));
+      }//end inner loop
+    }//end outer loop
+  }//end merge
+  //----------------------------------------------------//
+
+  //Crops a Picture object to the given width and height
+  // with the upper-left corner located at startCol and
+  // startRow.
+  private Picture crop(Picture pic,int startCol,
+                                   int startRow,
+                                   int width,
+                                   int height){
+    Picture output = new Picture(width,height);
+
+    int colOut = 0;
+    int rowOut = 0;
+    int col = 0;
+    int row = 0;
+    Pixel pixel = null;
+    Color color = null;
+    for(col = startCol;col &lt; startCol+width;col++){
+      for(row = startRow;row &lt; startRow+height;row++){
+        color = pic.getPixel(col,row).getColor();
+        pixel = output.getPixel(colOut,rowOut);
+        pixel.setColor(color);
+        rowOut++;
+      }//end inner loop
+      rowOut = 0;
+      colOut++;
+    }//end outer loop
+    return output;
+  }//end crop
+  //----------------------------------------------------//
+
+  private Picture clipToPolygon(Picture pix,Color color){
+    Picture result = new Picture(pix.getWidth(),
+                                 pix.getHeight());
+    result.setAllPixelsToAColor(color);
+
+    //Get the graphics2D object
+    Graphics2D g2 = (Graphics2D)(result.getGraphics());
+
+    int xPoints[] = {0,
+                     pix.getWidth()/2,
+                     pix.getWidth(),
+                     pix.getWidth()/2
+                    };
+
+    int yPoints[] = {pix.getHeight()/2,
+                     0,
+                     pix.getHeight()/2,
+                     pix.getHeight()
+                    };
+
+    //Create a Polygon for clipping
+    Polygon polygon = new Polygon(xPoints,yPoints,4);
+
+    //Use the Polygon for clipping
+    g2.setClip(polygon);
+
+    //Draw the image
+    g2.drawImage(pix.getImage(),0,0,pix.getWidth(),
+                                pix.getHeight(),
+                                null);
+    return result;
+  }//end clipToPolygon
+  //----------------------------------------------------//
+}//end class Q02Runner
+</code>
+
+
+
+				
+
+</entry>
+
+			
+
+</row>
+
+		
+
+</tbody>
+
+
+	
+
+</tgroup>
+</table>
+
+
+
+	
+
+
+
+
+<table id="table1006" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+<thead id="thead1006">
+<row id="tr1012">
+<entry id="th1006">
+
+
+
+<emphasis id="Figure_2c" effect="bold">
+
+Figure 2c
+
+</emphasis>
+
+. Output image.
+
+
+</entry>
+</row>
+</thead>
+
+
+<tbody id="tbody1006">
+<row id="tr1013">
+<entry id="td1006">
+
+		
+
+<media id="media1004" alt="missing image" display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/q2out.jpg" width="349" height="298"/>
+</media>
+
+
+
+
+</entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+
+<para id="p1004">
+Go to 
+
+<link id="a1018" target-id="answer02">
+
+Answer 2
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+<para id="p1005">
+<emphasis id="strong1010" effect="bold">
+What is the meaning of the following two images?
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1006">
+These images were inserted here simply to insert some space between the 
+questions and the answers to keep them from being visible on the screen at the 
+same time. 
+
+</para>
+
+
+
+
+
+<media id="media1005" alt="Spacer image of a rabbit and a penguin." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/Spacer01.jpg" width="339" height="290"/>
+</media>
+
+
+
+
+
+<para id="p1007">
+This image was also inserted for the purpose of inserting space between the questions and the answers.
+
+</para>
+
+
+
+
+<para id="p1008">
+
+
+
+<media id="media1006" alt="Spacer image of a penguin and some houses." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/Spacer02.jpg" width="374" height="308"/>
+</media>
+
+
+</para>
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Answers" effect="bold">
+
+Answers
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21002">
+<title>
+<emphasis id="answer02" effect="bold">
+
+Answer 2
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+<emphasis id="strong1011" effect="bold">
+True.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1010">
+<link id="a1019" target-id="question02">
+
+Back to Question 2
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="answer01" effect="bold">
+
+Answer 1
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+
+
+
+<para id="p1011">
+<emphasis id="strong1012" effect="bold">
+False.
+
+</emphasis>
+ The code in 
+
+<link id="a1020" target-id="Listing_1a">
+
+Listing 1a
+
+</link>
+
+ produces the output 
+image shown in 
+
+<link id="a1021" target-id="Figure_1c">
+
+Figure 1c
+
+</link>
+
+. Note the difference in the 
+bottom half of the image. The output image shown in 
+
+<link id="a1022" target-id="Figure_1b">
+
+Figure 
+1b
+
+</link>
+
+ is actually produced by the code shown in 
+
+<link id="a1023" target-id="Listing_1b">
+
+Listing 1b
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<table id="table1007" summary="This is a table." pgwide="1">
+<tgroup cols="1">
+
+
+	
+
+<thead id="thead1007">
+
+		
+
+<row id="tr1014">
+
+			
+
+<entry id="th1007">
+<emphasis id="Figure_1c" effect="bold">
+
+Figure 1c
+
+</emphasis>
+
+. Output image. 
+
+</entry>
+
+		
+
+</row>
+
+	
+
+</thead>
+
+
+
+
+<tbody id="tbody1007">
+	
+
+<row id="tr1015">
+
+		
+
+<entry id="td1007">
+
+		
+
+<media id="media1007" alt="Missing image" display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/q1aout.jpg" width="342" height="386"/>
+</media>
+
+
+		
+
+</entry>
+
+	
+
+</row>
+
+
+
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+
+
+
+<table id="table1008" summary="This is a table." pgwide="677">
+<tgroup cols="1">
+
+
+	
+
+<thead id="thead1008">
+
+		
+
+<row id="tr1016">
+
+			
+
+<entry id="th1008">
+<emphasis id="Listing_1b" effect="bold">
+
+Listing 1b
+
+</emphasis>
+
+. 
+			Program Q01b. 
+
+</entry>
+
+		
+
+</row>
+
+	
+
+</thead>
+
+
+
+
+<tbody id="tbody1008">
+	
+
+<row id="tr1017">
+
+		
+
+<entry id="td1008">
+
+		
+
+<code id="pre1002" display="block">public class Q01b{
+  public static void main(String[] args){
+    Picture pic = new Q01bRunner().run();
+  }//end main method
+}//end class Q01b
+
+
+class Q01bRunner{
+
+  public Picture run(){
+    Picture pix = new Picture("Q01.jpg");
+    pix = mirrorUpperBand(
+                 pix,1+pix.getWidth()/4,pix.getWidth()/4);
+    pix = mirrorUpperBand(
+                   pix,pix.getWidth()/2,pix.getWidth()/2);
+
+    pix = mirrorHoriz(pix);
+    pix.explore();
+    return pix;
+
+  }//end run
+  //----------------------------------------------------//
+
+  private Picture mirrorUpperBand(
+                        Picture pix,int center,int width){
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+
+    for(int row = 0;row &lt; pix.getHeight()/2;row++){
+      for(int cnt=0;cnt &lt; width;cnt++){
+        int leftCol = center-cnt;
+        int rightCol = center+cnt;
+        leftPixel = pix.getPixel(leftCol,row);
+        rightPixel = pix.getPixel(rightCol,row);
+        rightPixel.setColor(leftPixel.getColor());
+      }//end inner loop
+    }//end outer loop
+
+    return pix;
+  }//end mirrorUpperBand
+  //----------------------------------------------------//
+
+  private Picture mirrorHoriz(Picture pix){
+    Pixel topPixel = null;
+    Pixel bottomPixel = null;
+    int midpoint = pix.getHeight()/2;
+    int height = pix.getHeight();
+    for(int col = 0;col &lt; pix.getWidth();col++){
+      for(int row = 0;row &lt; midpoint;row++){
+        topPixel = pix.getPixel(col,row);
+        bottomPixel =
+                   pix.getPixel(col,height-1-row);
+        bottomPixel.setColor(topPixel.getColor());
+      }//end inner loop
+    }//end outer loop
+
+    return pix;
+  }//end mirrorHoriz
+
+}//end class Q01bRunner
+</code>
+
+
+		
+
+</entry>
+
+	
+
+</row>
+
+
+
+</tbody>
+
+
+</tgroup>
+</table>
+
+
+
+
+<para id="p1012">
+<link id="a1024" target-id="question01">
+
+Go back to Question 1
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+This section contains a variety of miscellaneous information. 
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+<emphasis id="strong1013" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+			
+
+<list id="ul1003" list-type="bulleted">
+
+				
+
+<item id="li1007">
+Module name: TableFigAndListingNumbers
+
+</item>
+
+
+				
+
+<item id="li1008">
+File: TableFigAndListingNumbers.htm 
+
+</item>
+
+
+				
+
+<item id="li1009">
+Published: 12/04/14
+
+</item>
+
+
+			
+
+</list>
+
+
+			
+
+</note>
+
+		
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+<emphasis id="strong1014" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1014">
+<emphasis id="strong1015" effect="bold">
+Financial
+
+</emphasis>
+: 
+			Although the Connexions site makes it possible for you to download a 
+			PDF file for this module at no charge, and also makes it possible 
+			for you to purchase a pre-printed version of the PDF file, you 
+			should be aware that some of the HTML elements in this module may 
+			not translate well into PDF.
+
+</para>
+
+
+			
+
+<para id="p1015">
+I also want you to know that, I receive no financial compensation 
+			from the Connexions website even if you purchase the PDF version of 
+			the module.
+
+</para>
+
+
+			
+
+<para id="p1016">
+In the past, unknown individuals have copied my modules from 
+			cnx.org, converted them to Kindle books, and placed them for sale on 
+			Amazon.com showing me as the author. I neither receive compensation 
+			for those sales nor do I know who does receive compensation. If you 
+			purchase such a book, please be aware that it is a copy of a module 
+			that is freely available on cnx.org and that it was made and 
+			published without my prior knowledge.
+
+</para>
+
+
+			
+
+<para id="p1017">
+<emphasis id="strong1016" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer 
+			Information Technology at Austin Community College in Austin, TX.
+			
+
+</para>
+
+
+			
+
+</note>
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1018">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

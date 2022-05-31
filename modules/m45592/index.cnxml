@@ -1,0 +1,3551 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>junk02</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45592</md:content-id>
+  <md:title>junk02</md:title>
+  <md:abstract>Junk - published to experiment with the manner in which various cnxml tags convert to pdf and downloadable html.</md:abstract>
+  <md:uuid>dbe524d3-2332-43c2-bbf9-a7679a0fff8e</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1003">
+<link id="a1003" target-id="Listings">
+
+Listings
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="Preview">
+
+Preview
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Discussion_and_sample_code">
+
+Discussion and sample code
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Homework_assignment">
+
+Homework assignment
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Run_the_program">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Summary">
+
+Summary
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1009">
+<link id="a1009" target-id="Whats_next">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Complete_program_listing">
+
+Complete program listing
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Exercises">
+
+Exercises
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Exercise_1">
+
+Exercise 1
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+	
+
+<para id="p1000">
+This module is one in a collection of modules designed for teaching 
+
+<emphasis id="em1000" effect="italics">
+
+	GAME2302 Mathematical Applications for Game Development
+
+</emphasis>
+ at Austin 
+	Community College in Austin, TX.
+
+</para>
+
+
+
+
+<para id="p1001">
+<emphasis id="strong1000" effect="bold">
+What you have learned
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1002">
+In the previous module, you learned:
+
+
+</para>
+
+
+
+
+<list id="ul1004" list-type="bulleted">
+
+	
+
+<item id="li1014">
+How to compare column matrices for equality
+    
+
+</item>
+
+
+	
+
+<item id="li1015">
+How to compare two points for equality
+    
+
+</item>
+
+
+	
+
+<item id="li1016">
+How to compare two vectors for equality
+    
+
+</item>
+
+
+	
+
+<item id="li1017">
+How to add one column matrix to another
+    
+
+</item>
+
+
+	
+
+<item id="li1018">
+How to subtract one column matrix from another
+    
+
+</item>
+
+
+	
+
+<item id="li1019">
+How to get a displacement vector from one point to another.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1003">
+<emphasis id="strong1001" effect="bold">
+What you will learn
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1004">
+In this module, you will learn how to display column matrices in a graphical 
+format. This may help you to get a better grasp of the nature of column matrices 
+and the results of adding, subtracting, and comparing them.
+
+</para>
+
+
+	
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1005">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the Images 
+and Listings while you are reading about them.
+
+</para>
+
+
+	
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1020">
+<link id="a1014" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Sample graphical program output. 
+
+</item>
+
+
+		
+
+<item id="li1021">
+<link id="a1015" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. Text output from the program.
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1016" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. Graphical output for equal vectors. 
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1017" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Text output for equal vectors.
+
+</item>
+
+
+		
+
+<item id="li1024">
+<link id="a1018" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. Graphic output from Exercise 01.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h31001">
+<title>
+<emphasis id="Listings" effect="bold">
+
+Listings
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1006" list-type="bulleted">
+
+		
+
+<item id="li1025">
+<link id="a1019" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+. Beginning of the method named displayColumnMatrices.
+
+</item>
+
+
+		
+
+<item id="li1026">
+<link id="a1020" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+. Use the slider values to create the two matrices.
+
+</item>
+
+
+		
+
+<item id="li1027">
+<link id="a1021" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+. Add and subtract the matrices.
+
+</item>
+
+
+		
+
+<item id="li1028">
+<link id="a1022" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+. Display text information about the matrices.
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1023" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+. Create mathematical points.
+
+</item>
+
+
+		
+
+<item id="li1030">
+<link id="a1024" target-id="Listing_6">
+
+Listing 6
+
+</link>
+
+. Create mathematical displacement vectors.
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1025" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+. Produce a graphical representation of the displacement vectors.
+
+</item>
+
+
+		
+
+<item id="li1032">
+<link id="a1026" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+. Source code for the program named ColMatrixVis01.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1006">
+Abstract mathematical concepts are often easier to grasp if you can 
+	visualize them in graphical format. For example, the nature of the following 
+	equation often becomes more apparent once you learn that it is the equation 
+	of a straight line.
+
+</para>
+
+
+
+
+<para id="p1007">
+y = m*x + b
+
+</para>
+
+
+
+
+<para id="p1008">
+Similarly, the nature of the following equation often becomes more apparent 
+once you learn that it is the equation of a parabola and you learn the general 
+shape of a parabola.
+
+</para>
+
+
+
+
+<para id="p1009">
+y = x^2 + k
+
+</para>
+
+
+
+
+<para id="p1010">
+where x^2 indicates x raised to the second power.
+
+</para>
+
+
+
+
+<para id="p1011">
+As mentioned earlier, in this module, you will learn how to display column matrices in a graphical 
+format. This may help you to get a better grasp of the nature of column matrices 
+and the results of adding, subtracting, and comparing them.
+
+</para>
+
+
+	
+
+<para id="p1012">
+I will present and explain an interactive program that behaves as 
+	follows:
+
+</para>
+
+
+
+
+<para id="p1013">
+Two column matrices are created using values obtained from the sliders shown 
+at the bottom of 
+
+<link id="a1027" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. One matrix is named 
+
+<emphasis id="strong1002" effect="bold">
+redMatrix
+
+</emphasis>
+ and the other matrix is 
+named 
+
+<emphasis id="strong1003" effect="bold">
+greenMatrix
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label> </label>
+
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1: Sample graphical program output.
+</title>
+
+
+
+
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/game0120a.jpg" width="451" height="601"/>
+</media>
+
+
+
+
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1014">
+Two additional column matrices are created by adding and
+subtracting the original matrices.
+
+The matrix created by adding the red and green matrices is named 
+
+<emphasis id="strong1004" effect="bold">
+
+blueMatrix
+
+</emphasis>
+. The matrix created by subtracting the green matrix from the 
+red matrix is named 
+
+<emphasis id="strong1005" effect="bold">
+orangeMatrix
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1015">
+Mathematical points are created to represent the values
+in the four matrices in a 2D reference frame. Then, mathematical displacement vectors are created for each of the points
+relative to the origin.
+
+
+
+</para>
+
+
+
+
+<para id="p1016">
+Graphical objects are created for each of the four displacement vectors and those 
+objects are drawn along with Cartesian coordinate axes
+in the 2D reference frame.
+
+</para>
+
+
+
+
+<para id="p1017">
+The vectors are shown in the top portion of 
+
+<link id="a1028" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. The red and green 
+vectors represent the red and green matrices. The blue and orange vectors 
+represent the sum and the difference of the red and green matrices.
+
+</para>
+
+
+
+
+<para id="p1018">
+Text output is displayed to show the matrix values as well
+as whether the two original matrices are equal. The text values corresponding to 
+the vectors in 
+
+<link id="a1029" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ are shown in 
+
+<link id="a1030" target-id="Image_2">
+
+Image 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1001" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2: Text output from the  				program.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1000" display="block">
+redMatrix = 53.0,53.0
+greenMatrix = 79.0,-66.0
+redMatrix equals greenMatrix: false
+blueMatrix = redMatrix + greenMatrix = 132.0,-13.0
+orangeMatrix = redMatrix - greenMatrix = -26.0,119.0
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1019">
+If you carefully adjust the sliders so that the two values contained in 
+	the 
+
+<emphasis id="strong1006" effect="bold">
+redMatrix
+
+</emphasis>
+ are the same as the two values contained in the 
+	
+
+<emphasis id="strong1007" effect="bold">
+greenMatrix
+
+</emphasis>
+, 
+	the red and green vectors will overlay as shown in 
+
+<link id="a1031" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ and the third 
+	line of output text will show true as shown in 
+
+<link id="a1032" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. In this case, only 
+	the green vector and part of the blue 
+
+<emphasis id="em1001" effect="italics">
+(sum)
+
+</emphasis>
+ vector are visible. The 
+	red vector is covered by the green vector, and the orange 
+
+<emphasis id="em1002" effect="italics">
+(difference)
+
+</emphasis>
+ 
+	vector has a zero length.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label> </label>
+
+
+<title>
+<emphasis id="Image_3" effect="bold">
+</emphasis>
+Image 3: Graphical output for equal vectors.
+</title>
+
+
+
+
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/game0120b.jpg" width="451" height="601"/>
+</media>
+
+
+
+
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1020">
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1003" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_4" effect="bold">
+</emphasis>
+Image 4: Text output for equal  				vectors.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1001" display="block">
+redMatrix = 100.0,100.0
+greenMatrix = 100.0,100.0
+redMatrix equals greenMatrix: true
+blueMatrix = redMatrix + greenMatrix = 200.0,200.0
+orangeMatrix = redMatrix - greenMatrix = 0.0,0.0
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1021">
+There are many other interesting combinations that I could show. However, 
+	I will leave it as an exercise for the student to copy, compile, and run the 
+	program and use the sliders to experiment with different matrix values.
+
+</para>
+
+
+
+
+<para id="p1022">
+I will also provide an exercise for you to complete on your own at the end of 
+the module. The exercise will concentrate on the material that you have learned 
+in this module and previous modules.
+
+</para>
+
+
+	
+
+	
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion and sample code
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+	
+
+<para id="p1023">
+Because of its interactive nature, much of the code in this program is at 
+	a complexity level that is beyond the scope of this course. However, most of 
+	the interesting work is done in the method named 
+
+<emphasis id="strong1008" effect="bold">
+displayColumnMatrices
+
+</emphasis>
+ and I will concentrate 
+	on explaining that method.
+
+</para>
+
+
+
+
+<para id="p1024">
+You can view a complete listing of the program named 
+
+<emphasis id="strong1009" effect="bold">
+ColMatrixVis01
+
+</emphasis>
+ in 
+
+
+<link id="a1033" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+ near 
+the end of the module.
+
+</para>
+
+
+
+
+<para id="p1025">
+Note that the program requires access to the game library named 
+
+<emphasis id="strong1010" effect="bold">
+GM2D03
+
+</emphasis>
+. The source code for 
+that library was provided in the earlier module titled  
+
+
+<link url="/content/m45010" id="a1034">
+
+GAME2302-0115: Working with Column Matrices, Points, and Vectors
+
+</link>
+
+ and you can copy it from there.
+
+</para>
+
+
+
+
+<para id="p1026">
+The method named 
+
+<emphasis id="strong1011" effect="bold">
+displayColumnMatrices
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1027">
+  The purpose of this method is to:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1033">
+Create two column matrices named 
+
+<emphasis id="strong1012" effect="bold">
+redMatrix
+
+</emphasis>
+ and
+	
+
+<emphasis id="strong1013" effect="bold">
+greenMatrix
+
+</emphasis>
+ using values obtained from sliders.
+
+</item>
+
+
+	
+
+<item id="li1034">
+Create two more column matrices named 
+
+<emphasis id="strong1014" effect="bold">
+blueMatrix
+
+</emphasis>
+    and
+	
+
+<emphasis id="strong1015" effect="bold">
+orangeMatrix
+
+</emphasis>
+ by adding and subtracting the red    and green matrices.
+
+</item>
+
+
+	
+
+<item id="li1035">
+Display text information about the matrices    including whether or not the red and green matrices are    equal.
+
+</item>
+
+
+	
+
+<item id="li1036">
+Create mathematical points in a 2D coordinate    frame that represent the values in the matrices.
+
+</item>
+
+
+	
+
+<item id="li1037">
+Create mathematical displacement vectors that    represent the displacements of each of the points    relative to the origin.
+
+</item>
+
+
+	
+
+<item id="li1038">
+Create and draw graphics objects that represent    each of the mathematical displacement vectors    along with Cartesian coordinate axes for the    2D reference frame.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1028">
+<emphasis id="strong1016" effect="bold">
+Beginning of the method named displayColumnMatrices
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1029">
+I will explain the method named 
+
+<emphasis id="strong1017" effect="bold">
+displayColumnMatrices 
+
+</emphasis>
+in 
+fragments. You can view the entire method in 
+
+<link id="a1035" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+. The first fragment is 
+shown in 
+
+<link id="a1036" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1004" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_1" effect="bold">
+</emphasis>
+Listing 1: Beginning of the method named displayColumnMatrices.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1002" display="block">
+
+  void displayColumnMatrices(Graphics2D g2D){
+    
+    //Get two values for each matrix from the sliders.
+    red0 = redSlider0.getValue();
+    red1 = redSlider1.getValue();
+    green0 = greenSlider0.getValue();
+    green1 = greenSlider1.getValue();
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1030">
+<emphasis id="strong1018" effect="bold">
+Get two values for each matrix from the sliders
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1031">
+The little things with the pointed bottoms on the sliders in 
+
+<link id="a1037" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ are 
+often called the 
+
+<emphasis id="em1003" effect="italics">
+thumbs
+
+</emphasis>
+ of the sliders. Each thumb points down to a 
+numeric scale that ranges from -100 on the left to +100 on the right.
+
+</para>
+
+
+
+
+<para id="p1032">
+Each time you move a thumb on a slider, the method named 
+
+<emphasis id="strong1019" effect="bold">
+
+displayColumnMatrices
+
+</emphasis>
+, including the code in 
+
+<link id="a1038" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+, is executed. 
+The code in 
+
+<link id="a1039" target-id="Listing_1">
+
+Listing 1
+
+</link>
+
+ gets the value corresponding to the position of each thumb 
+and saves those four values in the variables named 
+
+<emphasis id="strong1020" effect="bold">
+red0
+
+</emphasis>
+,
+
+
+<emphasis id="strong1021" effect="bold">
+red1
+
+</emphasis>
+, 
+
+<emphasis id="strong1022" effect="bold">
+green0
+
+</emphasis>
+, and 
+
+<emphasis id="strong1023" effect="bold">
+green1
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1033">
+The two sliders in the top row represent red. The two sliders in the bottom 
+row represent green.
+
+</para>
+
+
+
+
+<para id="p1034">
+The values of the two sliders on the left correspond to 
+
+<emphasis id="strong1024" effect="bold">
+red0
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1025" effect="bold">
+green0
+
+</emphasis>
+. The two on the right correspond to 
+
+<emphasis id="strong1026" effect="bold">
+red1
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1027" effect="bold">
+green1
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1035">
+<emphasis id="strong1028" effect="bold">
+Use the slider values to create the two matrices
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1036">
+<link id="a1040" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ uses the slider values to create the two matrices named 
+
+<emphasis id="strong1029" effect="bold">
+redMatrix
+
+</emphasis>
+ and
+
+
+<emphasis id="strong1030" effect="bold">
+greenMatrix
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1037">
+<emphasis id="em1004" effect="italics">
+(More properly, the code uses the values to create two 
+
+<emphasis id="strong1031" effect="bold">
+ColMatrix
+
+</emphasis>
+ 
+objects and to store references to those objects in the variables named 
+
+<emphasis id="strong1032" effect="bold">
+
+redMatrix
+
+</emphasis>
+ and 
+
+<emphasis id="strong1033" effect="bold">
+greenMatrix
+
+</emphasis>
+.)
+
+</emphasis>
+</para>
+
+
+
+
+	
+
+<figure id="figure1005" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_2" effect="bold">
+</emphasis>
+Listing 2: Use the slider values to create the two matrices.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1003" display="block">
+    //Use the slider values to create the two matrices
+    // named redMatrix and greenMatrix.
+    GM2D03.ColMatrix redMatrix = 
+                          new GM2D03.ColMatrix(red0,red1);
+    GM2D03.ColMatrix greenMatrix = 
+                      new GM2D03.ColMatrix(green0,green1);
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1038">
+There is nothing new in 
+
+<link id="a1041" target-id="Listing_2">
+
+Listing 2
+
+</link>
+
+ that you haven't seen before so further 
+	explanation should not be necessary.
+
+</para>
+
+
+
+
+<para id="p1039">
+<emphasis id="strong1034" effect="bold">
+Add and subtract the matrices
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1040">
+<link id="a1042" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+ creates two additional matrices by adding and subtracting the red 
+and green matrices. References to the new matrices are stored in the variables 
+named 
+
+<emphasis id="strong1035" effect="bold">
+blueMatrix
+
+</emphasis>
+ and 
+
+<emphasis id="strong1036" effect="bold">
+orangeMatrix
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1006" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_3" effect="bold">
+</emphasis>
+Listing 3: Add and subtract the matrices.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1004" display="block">
+    //Create two additional matrices by adding and
+    // subtracting the red and green matrices.
+    GM2D03.ColMatrix blueMatrix = 
+                               redMatrix.add(greenMatrix);
+    GM2D03.ColMatrix orangeMatrix = 
+                          redMatrix.subtract(greenMatrix);
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1041">
+Once again, there is nothing new in 
+
+<link id="a1043" target-id="Listing_3">
+
+Listing 3
+
+</link>
+
+, so further explanation 
+	should not be necessary.
+
+</para>
+
+
+
+
+<para id="p1042">
+<emphasis id="strong1037" effect="bold">
+Display text information about the matrices
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1043">
+<link id="a1044" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ displays text information about the four matrices, including 
+whether or not the red and green matrices are equal.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1007" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_4" effect="bold">
+</emphasis>
+Listing 4: Display text information about the matrices.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1005" display="block">
+    //Display text information about the matrices.
+    System.out.println();//blank line
+    System.out.println("redMatrix = " + redMatrix);
+    System.out.println("greenMatrix = " + greenMatrix);
+    System.out.println("redMatrix equals greenMatrix: " +
+                           redMatrix.equals(greenMatrix));
+    System.out.println(
+              "blueMatrix = redMatrix + greenMatrix = " + 
+                                              blueMatrix);
+    System.out.println(
+            "orangeMatrix = redMatrix - greenMatrix = " +
+                                            orangeMatrix);
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1044">
+The code in 
+
+<link id="a1045" target-id="Listing_4">
+
+Listing 4
+
+</link>
+
+ produced the text in 
+
+<link id="a1046" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ and 
+
+<link id="a1047" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1045">
+<emphasis id="strong1038" effect="bold">
+Displaying information about the matrices
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1046">
+There are many ways to display information about matrices, including the 
+simple text displays shown in 
+
+<link id="a1048" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ and 
+
+<link id="a1049" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. The problem with text 
+displays is that you have to study the numbers in detail to get a feel for an 
+individual matrix and a feel for the relationships among two or more matrices.
+
+</para>
+
+
+
+
+<para id="p1047">
+A graphical display can often convey that sort of information at first 
+glance. Then you are faced with a decision as to how you should construct the 
+graphical display.
+
+</para>
+
+
+
+
+<para id="p1048">
+For the case of a column matrix with two elements, a good approach is to let 
+the two matrix values represent the x and y coordinate values of a mathematical 
+point in a 2D reference frame and then to display information about the point. 
+That is the approach taken by this program.
+
+</para>
+
+
+
+
+<para id="p1049">
+<emphasis id="strong1039" effect="bold">
+Create mathematical points
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+<link id="a1050" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ creates mathematical points in a 2D coordinate frame that represent the values in the matrices. 
+
+
+<link id="a1051" target-id="Listing_5">
+
+Listing 5
+
+</link>
+
+ also creates a point that represents the origin.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1008" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_5" effect="bold">
+</emphasis>
+Listing 5: Create mathematical  				points.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1006" display="block">
+    //Create mathematical points in a 2D coordinate
+    // frame that represent the values in the matrices.
+    // Also create a point that represents the origin.
+    GM2D03.Point origin = 
+              new GM2D03.Point(new GM2D03.ColMatrix(0,0));
+    GM2D03.Point redPoint = 
+                              new GM2D03.Point(redMatrix);
+    GM2D03.Point greenPoint = 
+                            new GM2D03.Point(greenMatrix);
+    GM2D03.Point bluePoint = new GM2D03.Point(blueMatrix);
+    GM2D03.Point orangePoint = 
+                           new GM2D03.Point(orangeMatrix);
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1051">
+<emphasis id="strong1040" effect="bold">
+Displaying the points
+
+</emphasis>
+</para>
+
+
+	
+	
+
+<para id="p1052">
+Once you have the points, you then need to decide what might be the best 
+	format in which to display them. One obvious approach would simply be to 
+	draw small symbols in the 2D coordinate frame that represent the locations 
+	of the points.
+
+</para>
+
+
+
+
+<para id="p1053">
+However, in most real-world situations, we tend to evaluate the value of 
+something relative to a value of zero.
+
+</para>
+
+
+
+
+<para id="p1054">
+<emphasis id="em1005" effect="italics">
+(There are, however, exceptions to this rule. For example, when 
+considering the temperature in Celsius, we tend to evaluate the temperature 
+relative to zero degrees Celsius, which is the freezing point of water. On a 
+Fahrenheit scale, however, we tend to evaluate temperature relative to 
+32-degrees F, which is the freezing point of water. )
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1055">
+<emphasis id="strong1041" effect="bold">
+Displacement vectors
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1056">
+A good way to get a feel for the location of a mathematical point in a 2D 
+reference frame is to compare the location of that point with the location of a 
+different point through the use of a displacement vector. That is the approach 
+taken by this program with the anchor point being the point at the origin against 
+which all other points are compared.
+
+</para>
+
+
+
+
+<para id="p1057">
+<link id="a1052" target-id="Listing_6">
+
+Listing 6
+
+</link>
+
+ creates mathematical displacement vectors that represent the displacements of each of the 
+four points created earlier relative to the origin.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1009" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_6" effect="bold">
+</emphasis>
+Listing 6: Create mathematical  				displacement vectors.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1007" display="block">
+    //Create mathematical displacement vectors that
+    // represent the displacements of each of the points
+    // relative to the origin.
+    GM2D03.Vector redVec = 
+                   origin.getDisplacementVector(redPoint);
+    GM2D03.Vector greenVec = 
+                 origin.getDisplacementVector(greenPoint);
+    GM2D03.Vector blueVec = 
+                  origin.getDisplacementVector(bluePoint);
+    GM2D03.Vector orangeVec = 
+                origin.getDisplacementVector(orangePoint);
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1058">
+<emphasis id="strong1042" effect="bold">
+Produce a graphical representation of the displacement vectors
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1059">
+<link id="a1053" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+ produces and displays a graphical representation of each of the 
+	four displacement vectors as shown in 
+
+<link id="a1054" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1010" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_7" effect="bold">
+</emphasis>
+Listing 7: Produce a graphical representation of the displacement vectors.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1008" display="block">
+    //The remaining code is used to create and draw
+    // graphical objects.
+    //Erase the off-screen image
+    g2D.setColor(Color.WHITE);
+    g2D.fill(rect);
+   
+    //Set the line thickness so that the vectors will be
+    // drawn with a heavy line.
+    g2D.setStroke(new BasicStroke(3));
+    
+    //Draw the four vectors with their tails at the
+    // origin.
+    g2D.setColor(Color.BLUE);
+    blueVec.draw(g2D,origin);
+    
+    g2D.setColor(Color.ORANGE);
+    orangeVec.draw(g2D,origin);
+    
+    g2D.setColor(Color.RED);
+    redVec.draw(g2D,origin);
+    
+    g2D.setColor(Color.GREEN);
+    greenVec.draw(g2D,origin);
+
+    //Draw the axes with thinner lines.
+    g2D.setStroke(new BasicStroke(1));
+    g2D.setColor(Color.BLACK);
+    drawAxes(g2D);
+    
+  }//end displayColumnMatrices
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1060">
+There is very little new code in 
+
+<link id="a1055" target-id="Listing_7">
+
+Listing 7
+
+</link>
+
+, and the new code that is 
+	there should be easy to understand.
+
+</para>
+
+
+
+
+<para id="p1061">
+<emphasis id="strong1043" effect="bold">
+Analysis of results
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+The head of the red vector in 
+
+<link id="a1056" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ represents the two values in the 
+column matrix known as 
+
+<emphasis id="strong1044" effect="bold">
+redMatrix
+
+</emphasis>
+. The length and direction of 
+that vector shows how it relates to a column vector having two elements, each 
+with a value of zero.
+
+</para>
+
+
+
+
+<para id="p1063">
+Similarly, the head of the green vector in 
+
+<link id="a1057" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ represents the two values 
+in the column matrix known as 
+
+<emphasis id="strong1045" effect="bold">
+greenMatrix
+
+</emphasis>
+. 
+
+</para>
+
+
+	
+
+<para id="p1064">
+The head of the blue vector represents the two values in the column 
+	matrix known as 
+
+<emphasis id="strong1046" effect="bold">
+blueMatrix
+
+</emphasis>
+, which was created by adding the 
+	red and green matrices. In case you haven't noticed, a line drawn from the 
+	head of the red vector to the head of the blue vector would have the same 
+	length and direction as the green vector. This will come up again in a 
+	future module when we discuss the vector addition parallelogram.
+
+</para>
+
+
+
+
+<para id="p1065">
+The head of the orange vector represents the two values in the column matrix 
+know as 
+
+<emphasis id="strong1047" effect="bold">
+orangeMatrix
+
+</emphasis>
+, which was created by subtracting the 
+green matrix from the red matrix. Again, a line drawn from the head of the red 
+vector to the head of the orange vector would have the same length and opposite direction 
+as the green vector.
+
+</para>
+
+
+	
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Homework_assignment" effect="bold">
+
+Homework assignment
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1066">
+The homework assignment for this module was to study the Kjell tutorial 
+through Chapter 3 - 
+
+<emphasis id="em1006" effect="italics">
+Vector Addition
+
+</emphasis>
+. That is also the homework 
+assignment for the next module.
+
+</para>
+
+
+
+
+<para id="p1067">
+In addition to studying the Kjell material, you should read at least the next 
+two modules in this collection and bring your questions about that material to 
+the next classroom session.
+
+</para>
+
+
+
+
+<para id="p1068">
+Finally, you should have begun studying the
+
+
+<link url="/content/m44992/latest/" id="a1058">
+
+physics material
+
+</link>
+
+ at the 
+beginning of the semester and you should continue studying one physics module 
+per week thereafter. You should also feel free to bring your questions about 
+that material to the classroom for discussion. 
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+
+<para id="p1069">
+I encourage you to copy the code from 
+
+<link id="a1059" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+. Compile the code and 
+execute it in conjunction with the game-math library named 
+
+<emphasis id="strong1048" effect="bold">
+GM2D03
+
+</emphasis>
+. The source code for that library was provided in the earlier module titled 
+
+
+<link url="/content/m45010" id="a1060">
+
+GAME2302-0115: Working with Column Matrices, Points, and Vectors
+
+</link>
+
+ and you can copy it from there.. Experiment with the 
+code, making changes, and observing the results of your changes. Make certain 
+that you can explain why your changes behave as they do.
+
+</para>
+
+
+	
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1070">
+In this module, you learned how to 
+    create column matrices using values obtained from sliders.
+    You learned how to create additional column matrices by adding and subtracting the 
+original matrices.
+
+</para>
+
+
+
+
+<para id="p1071">
+You learned how to display text information about the matrices including whether or not 
+they are equal.
+
+</para>
+
+
+
+
+<para id="p1072">
+You learned how to display the matrices in a graphical format where each 
+matrix is represented by a displacement vector in a 2D reference frame.
+
+</para>
+
+
+
+
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Whats_next" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1073">
+In the next module, you will learn:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1039">
+How to add two or more vectors.
+
+</item>
+
+
+	
+
+<item id="li1040">
+About the head-to-tail rule in vector addition.
+
+</item>
+
+
+	
+
+<item id="li1041">
+About the vector addition parallelogram.
+
+</item>
+
+
+	
+
+<item id="li1042">
+About the relationship between the length of the sum of vectors and the 
+	sum of the lengths of vectors.
+
+</item>
+
+
+	
+
+<item id="li1043">
+How to add a vector to a point.
+
+</item>
+
+
+	
+
+<item id="li1044">
+How to get the length of a vector.
+
+</item>
+
+
+	
+
+<item id="li1045">
+How to represent an object in different coordinate frames.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1074">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1049" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1008" list-type="bulleted">
+
+					
+
+<item id="li1046">
+Module name: GAME2302-0120: Visualizing Column Matrices
+
+</item>
+
+
+					
+
+<item id="li1047">
+File: Game0120.htm
+
+
+</item>
+
+
+					
+
+<item id="li1048">
+Published: 10/15/12
+
+</item>
+
+
+					
+
+<item id="li1049">
+Revised: 12/31/12
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1050" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1075">
+<emphasis id="strong1051" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1076">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1077">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1078">
+<emphasis id="strong1052" effect="bold">
+Affiliation
+
+</emphasis>
+:: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Complete_program_listing" effect="bold">
+
+Complete program listing
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1079">
+A complete listing of the program named 
+
+<emphasis id="strong1053" effect="bold">
+ColMatrixVis01
+
+</emphasis>
+ is provided in 
+
+<link id="a1061" target-id="Listing_8">
+
+Listing 8
+
+</link>
+
+. The 
+game library named 
+
+<emphasis id="strong1054" effect="bold">
+GM2D03
+
+</emphasis>
+, which is required for compiling and 
+executing this program, was 
+provided in the earlier module titled   
+
+
+<link url="/content/m45010" id="a1062">
+
+GAME2302-0115: Working with Column Matrices, Points, and Vectors
+
+</link>
+
+. You can copy it from there.
+
+</para>
+
+
+
+
+
+	
+
+<figure id="figure1011" type="figure">
+<label> </label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Listing_8" effect="bold">
+</emphasis>
+Listing 8: Source code for the  				program named  ColMatrixVis01.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1009" display="block">
+/*ColMatrixVis01.java
+Copyright 2012, R.G.Baldwin
+
+The purpose of this program is to help the student 
+visualize column matrices. Two column matrices are created
+using values obtained from sliders.
+
+Two additional column matrices are created by adding and
+subtracting the original matrices.
+
+Mathematical points are created to represent the values
+in the matrices in a 2D reference frame.
+
+Displacement vectors are created for each of the points
+relative to the origin.
+
+The vectors are drawn along with Cartesian coordinate axes
+in the 2D reference frame.
+
+Text output is displayed to show the matrix values as well
+as whether the two original matrices are equal.
+
+Tested using JDK 1.7 under WinXP and Windows 7
+*********************************************************/
+import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JSlider;
+import javax.swing.JLabel;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.ChangeEvent;
+import java.lang.Math;
+import java.util.*;
+
+class ColMatrixVis01{
+  public static void main(String[] args){
+    GUI guiObj = new GUI();
+  }//end main
+}//end controlling class ColMatrixVis01
+//======================================================//
+
+class GUI extends JFrame{
+  //Specify the horizontal and vertical size of a JFrame
+  // object.
+  int hSize = 450;
+  int vSize = 600;
+  Image osi;//off-screen image
+  int osiWidth;//off-screen image width
+  int osiHeight;//off-screen image height
+  MyCanvas myCanvas;//a subclass of Canvas
+  
+  //Panel to contain the sliders and associated labels.
+  private JPanel mainPanel = new JPanel();
+  
+  //Sliders used to produce values for column matrices.
+  private JSlider redSlider0 = new JSlider();
+  private JSlider redSlider1 = new JSlider();
+  private JSlider greenSlider0 = new JSlider();
+  private JSlider greenSlider1 = new JSlider();
+
+  //Storage area for values extracted from sliders.
+  private int red0 = 100;
+  private int red1 = 100;
+  private int green0 = 100;
+  private int green1 = -100;
+
+  //Object used to erase the off-screen image.
+  private Rectangle rect;
+
+  GUI(){//constructor
+    //Configure the sliders.
+    redSlider0.setMaximum(100);
+    redSlider0.setMinimum(-100);
+    redSlider0.setMajorTickSpacing(50);
+    redSlider0.setMinorTickSpacing(10);
+    redSlider0.setPaintTicks(true);
+    redSlider0.setPaintLabels(true);
+    redSlider0.setValue(red0);
+    
+    redSlider1.setMaximum(100);
+    redSlider1.setMinimum(-100);
+    redSlider1.setMajorTickSpacing(50);
+    redSlider1.setMinorTickSpacing(10);
+    redSlider1.setPaintTicks(true);
+    redSlider1.setPaintLabels(true);
+    redSlider1.setValue(red1);
+    
+    greenSlider0.setMaximum(100);
+    greenSlider0.setMinimum(-100);
+    greenSlider0.setMajorTickSpacing(50);
+    greenSlider0.setMinorTickSpacing(10);
+    greenSlider0.setPaintTicks(true);
+    greenSlider0.setPaintLabels(true);
+    greenSlider0.setValue(green0);
+    
+    greenSlider1.setMaximum(100);
+    greenSlider1.setMinimum(-100);
+    greenSlider1.setMajorTickSpacing(50);
+    greenSlider1.setMinorTickSpacing(10);
+    greenSlider1.setPaintTicks(true);
+    greenSlider1.setPaintLabels(true);
+    greenSlider1.setValue(green1);
+    
+    //Set the layout manager for the panel that contains
+    // the sliders and the associated labels.
+    mainPanel.setLayout(new GridLayout(2,3));
+    
+    //Add the sliders and associated labels to the panel.
+    mainPanel.add(new JLabel("   Red matrix values"));
+    mainPanel.add(redSlider0);
+    mainPanel.add(redSlider1);
+
+    mainPanel.add(new JLabel("   Green matrix values"));
+    mainPanel.add(greenSlider0);
+    mainPanel.add(greenSlider1);
+    
+    //Set JFrame size, title, and close operation.
+    setSize(hSize,vSize);
+    setTitle("Copyright 2012, R.G.Baldwin");
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    //Create a new drawing canvas and add it to the
+    // center of the JFrame.
+    myCanvas = new MyCanvas();
+    this.getContentPane().add(myCanvas);
+    this.getContentPane().add(
+                            mainPanel,BorderLayout.SOUTH);
+
+    //This object must be visible before you can get an
+    // off-screen image.  It must also be visible before
+    // you can compute the size of the canvas.
+    setVisible(true);
+    osiWidth = myCanvas.getWidth();
+    osiHeight = myCanvas.getHeight();
+    
+    //Configure the object that will be used to erase
+    // the off-screen image.
+    rect = new Rectangle(
+             -osiWidth/2,-osiHeight/2,osiWidth,osiHeight);
+
+    //Create an off-screen image and get a graphics
+    // context on it.
+    osi = createImage(osiWidth,osiHeight);
+    final Graphics2D g2D = 
+                          (Graphics2D)(osi.getGraphics());
+
+    //Translate the origin to the center of the
+    // off-screen image.
+    g2D.translate(osiWidth/2.0,osiHeight/2.0);
+    
+    //Erase the off-screen image.
+    g2D.setColor(Color.WHITE);
+    g2D.fill(rect);//erase the osi
+
+    //Display the initial values of the column matrices
+    displayColumnMatrices(g2D);
+    
+    //Register a listener on each of the sliders.
+    redSlider0.addChangeListener(
+      new ChangeListener(){
+        public void stateChanged(ChangeEvent e){
+          //Re-display the column matrices each time the
+          // thumb is moved on the slider.
+          displayColumnMatrices(g2D);
+        }//end stateChanged
+      }//end new ChangeListener
+    );//end addChangeListener
+    
+    redSlider1.addChangeListener(
+      new ChangeListener(){
+        public void stateChanged(ChangeEvent e){
+          displayColumnMatrices(g2D);
+        }//end stateChanged
+      }//end new ChangeListener
+    );//end addChangeListener
+
+    greenSlider0.addChangeListener(
+      new ChangeListener(){
+        public void stateChanged(ChangeEvent e){
+          displayColumnMatrices(g2D);
+        }//end stateChanged
+      }//end new ChangeListener
+    );//end addChangeListener
+    
+    greenSlider1.addChangeListener(
+      new ChangeListener(){
+        public void stateChanged(ChangeEvent e){
+          displayColumnMatrices(g2D);
+        }//end stateChanged
+      }//end new ChangeListener
+    );//end addChangeListener
+  }//end constructor
+  //----------------------------------------------------//
+
+  //The purpose of this method is to
+  // 1. Create two column matrices named redMatrix and 
+  //    greenMatrix using values obtained from sliders.
+  // 2. Create two more column matrices named blueMatrix
+  //    and orangeMatrix by adding and subtracting the red
+  //    and green matrices.
+  // 3. Display text information about the matrices
+  //    including whether the red and green matrices are
+  //    equal.
+  // 4. Create mathematical points in a 2D coordinate
+  //    frame that represents the values in the matrices.
+  // 5. Create mathematical displacement vectors that
+  //    represent the displacements of each of the points
+  //    relative to the origin.
+  // 6. Create and draw graphics objects that represent
+  //    each of the mathematical displacement vectors
+  //    along with Cartesian coordinate axes for the
+  //    2D reference frame.
+  void displayColumnMatrices(Graphics2D g2D){
+    
+    //Get two values for each matrix from the sliders.
+    red0 = redSlider0.getValue();
+    red1 = redSlider1.getValue();
+    green0 = greenSlider0.getValue();
+    green1 = greenSlider1.getValue();
+    
+    //Use the slider values to create the two matrices
+    // named redMatrix and greenMatrix.
+    GM2D03.ColMatrix redMatrix = 
+                          new GM2D03.ColMatrix(red0,red1);
+    GM2D03.ColMatrix greenMatrix = 
+                      new GM2D03.ColMatrix(green0,green1);
+    
+    //Create two additional matrices by adding and
+    // subtracting the red and green matrices.
+    GM2D03.ColMatrix blueMatrix = 
+                               redMatrix.add(greenMatrix);
+    GM2D03.ColMatrix orangeMatrix = 
+                          redMatrix.subtract(greenMatrix);
+    
+    //Display text information about the matrices.
+    System.out.println();//blank line
+    System.out.println("redMatrix = " + redMatrix);
+    System.out.println("greenMatrix = " + greenMatrix);
+    System.out.println("redMatrix equals greenMatrix: " +
+                           redMatrix.equals(greenMatrix));
+    System.out.println(
+              "blueMatrix = redMatrix + greenMatrix = " + 
+                                              blueMatrix);
+    System.out.println(
+            "orangeMatrix = redMatrix - greenMatrix = " +
+                                            orangeMatrix);
+    
+    //Create mathematical points in a 2D coordinate
+    // frame that represent the values in the matrices.
+    // Also create a point that represents the origin.
+    GM2D03.Point origin = 
+              new GM2D03.Point(new GM2D03.ColMatrix(0,0));
+    GM2D03.Point redPoint = 
+                              new GM2D03.Point(redMatrix);
+    GM2D03.Point greenPoint = 
+                            new GM2D03.Point(greenMatrix);
+    GM2D03.Point bluePoint = new GM2D03.Point(blueMatrix);
+    GM2D03.Point orangePoint = 
+                           new GM2D03.Point(orangeMatrix);
+
+    //Create mathematical displacement vectors that
+    // represent the displacements of each of the points
+    // relative to the origin.
+    GM2D03.Vector redVec = 
+                   origin.getDisplacementVector(redPoint);
+    GM2D03.Vector greenVec = 
+                 origin.getDisplacementVector(greenPoint);
+    GM2D03.Vector blueVec = 
+                  origin.getDisplacementVector(bluePoint);
+    GM2D03.Vector orangeVec = 
+                origin.getDisplacementVector(orangePoint);
+    
+    //The remaining code is used to create and draw
+    // graphical objects.
+    //Erase the off-screen image
+    g2D.setColor(Color.WHITE);
+    g2D.fill(rect);
+   
+    //Set the line thickness so that the vectors will be
+    // drawn with a heavy line.
+    g2D.setStroke(new BasicStroke(3));
+    
+    //Draw the four vectors with their tails at the
+    // origin.
+    g2D.setColor(Color.BLUE);
+    blueVec.draw(g2D,origin);
+    
+    g2D.setColor(Color.ORANGE);
+    orangeVec.draw(g2D,origin);
+    
+    g2D.setColor(Color.RED);
+    redVec.draw(g2D,origin);
+    
+    g2D.setColor(Color.GREEN);
+    greenVec.draw(g2D,origin);
+
+    //Draw the axes with thinner lines.
+    g2D.setStroke(new BasicStroke(1));
+    g2D.setColor(Color.BLACK);
+    drawAxes(g2D);
+    
+  }//end displayColumnMatrices
+  //----------------------------------------------------//
+
+  //The purpose of this method is to draw a pair of
+  // Cartesian coordinate axes onto the
+  // off-screen image.
+  void drawAxes(Graphics2D g2D){
+
+    //Define four points at the edges of the coordinate
+    // frame and the ends of the axes.
+    GM2D03.Point point0 = new GM2D03.Point(
+                     new GM2D03.ColMatrix(-osiWidth/2,0));
+    GM2D03.Point point1 = new GM2D03.Point(
+                      new GM2D03.ColMatrix(osiWidth/2,0));
+    GM2D03.Point point2 = new GM2D03.Point(
+                    new GM2D03.ColMatrix(0,-osiHeight/2));
+    GM2D03.Point point3 = new GM2D03.Point(
+                     new GM2D03.ColMatrix(0,osiHeight/2));
+
+    //Now define the two lines based on the end points..
+    GM2D03.Line xAxis = new GM2D03.Line(point0,point1);
+    GM2D03.Line yAxis = new GM2D03.Line(point2,point3);
+
+    //Now draw a visual manifestation of each line
+    // on g2D.
+    xAxis.draw(g2D);
+    yAxis.draw(g2D);
+    
+    //Repaint the display area
+    myCanvas.repaint();
+
+  }//end drawAxes
+  //====================================================//
+
+  //This is an inner class of the GUI class.
+  class MyCanvas extends Canvas{
+    //Override the paint() method. This method will be
+    // called when the JFrame and the Canvas appear on the
+    // screen or when the repaint method is called on the
+    // Canvas object.
+    public void paint(Graphics g){
+      g.drawImage(osi,0,0,this);
+    }//end overridden paint()
+
+  }//end inner class MyCanvas
+
+}//end class GUI
+//======================================================//
+</code>
+
+
+
+				
+
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Exercises" effect="bold">
+
+Exercises
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="Exercise_1" effect="bold">
+
+Exercise 1
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1080">
+Using Java and the game-math library named 
+
+<emphasis id="strong1055" effect="bold">
+GM2D03
+
+</emphasis>
+, or using 
+a different programming environment of your choice, write a program that uses 
+random values to generate two column matrix objects.
+
+</para>
+
+
+
+
+<para id="p1081">
+Generate two more column matrix objects as the sum and difference of the two 
+original column matrix objects.
+
+</para>
+
+
+
+
+<para id="p1082">
+Display the two original column matrix objects in red and green and display 
+the sum and difference matrix objects in blue and orange as shown in
+
+
+<link id="a1063" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+
+
+<figure id="figure1012" type="figure">
+<label> </label>
+
+
+<title>
+<emphasis id="Image_5" effect="bold">
+</emphasis>
+Image 5: Graphic output from Exercise 01.
+</title>
+
+
+
+
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/0120ex01.jpg" width="301" height="301"/>
+</media>
+
+
+</figure>
+
+
+
+
+
+
+	
+
+<para id="p1083">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+</content>
+
+
+
+
+</document>
